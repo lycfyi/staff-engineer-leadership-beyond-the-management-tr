@@ -15,14 +15,13 @@
 
 ### 本书概要
 
-
 ### 捐赠
 
 如果您觉得我的工作对您有所帮助，欢迎捐赠crypto到如下地址，您的支持是我最大的动力！
 
-![BTC: 33itepSrkC1sV4GHfEUEifruE82CAzxJ69](.gitbook/assets/image%20%283%29.png)
+![BTC: 33itepSrkC1sV4GHfEUEifruE82CAzxJ69](.gitbook/assets/image.png)
 
-![ETH: 0x03490a0191f428145988E726e9BCdA7cD8Df86ae](.gitbook/assets/image%20%282%29.png)
+![ETH: 0x03490a0191f428145988E726e9BCdA7cD8Df86ae](.gitbook/assets/image%20%281%29.png)
 
-![BCH: qpssxzmh5c3vs2pvsmwauam4lzw92qfe5qqk4dz86z](.gitbook/assets/image%20%281%29.png)
+![BCH: qpssxzmh5c3vs2pvsmwauam4lzw92qfe5qqk4dz86z](.gitbook/assets/image%20%282%29.png)
 
