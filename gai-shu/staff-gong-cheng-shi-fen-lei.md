@@ -6,26 +6,33 @@
 
 我所遇到的四种常见的Staff-plus角色原型是:
 
-* The **Tech Lead** guides the approach and execution of a particular team. They partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. Some companies also have a Tech Lead Manager role, which is similar to the Tech Lead archetype but exists on the engineering manager ladder and includes people management responsibilities.
+* **Tech Lead** 指导特定团队的方法和执行。他们有时与某特定主管紧密合作，但有时他们与两个或三个主管在一个重点领域合作。一些公司也有Tech Lead经理的角色，这与Tech Lead原型类似，但处于工程经理的岗位路径上，职责中包括了人员管理。
 * The **Architect** is responsible for the direction, quality, and approach within a critical area. They combine in-depth knowledge of technical constraints, user needs, and organization level leadership. 
-* The **Solver** digs deep into arbitrarily complex problems and finds an appropriate path forward. Some focus on a given area for long periods. Others bounce from hotspot to hotspot as guided by organizational leadership. 
-* The **Right Hand** extends an executive’s attention, borrowing their scope and authority to operate particularly complex organizations. They provide additional leadership bandwidth to leaders of large-scale organizations. 
+* **架构师**对关键业务的方向、质量和方法负责。ta们需要对技术瓶颈、用户需求和组织级别领导有深入了解。
+* **Solver**会深入研究任意复杂的问题，并找到合适的前进路径。有些人长期专注于某一特定领域。另一些则在组织领导的引导下从一个热点跳到另一个热点。
+* **Right Hand**延伸了高管的注意力，借用他们的范围和权力来运营特别复杂的组织。ta们为大型组织的领导者提供了额外的处理能力。
 
-This taxonomy is more focused on being useful than complete, but so far, I’ve been able to fit every Staff-plus engineer I’ve spoken to into one of these categories. Admittedly, some folks are easier to classify than others.”
+这种分类方式更侧重于实用性而不是完整性上。但到目前为止，我已经能够将与我交谈过的每个staff +工程师归入其中一个类别。当然我得承认，有些人比其他人更容易归类。
 
 ## Tech Lead
 
-![Example calendar for a Tech Lead archetype](../.gitbook/assets/image%20%283%29.png)
+![&#x4E00;&#x4E2A;&#x5178;&#x578B;&#x7684;Tech Lead &#x539F;&#x578B;&#x7684;&#x6BCF;&#x5468;&#x65E5;&#x7A0B;&#x5B89;&#x6392;](../.gitbook/assets/image%20%283%29.png)
 
-Stories featuring Tech Lead archetype: Diana Pojar, Dan Na, Ritu Vincent
+Tech Lead原型案例: Diana Pojar, Dan Na, Ritu Vincent
 
-Tech Leads are the most common Staff archetype and lead one team or a cluster of teams in their approach and execution. They’re comfortable scoping complex tasks, coordinating their team towards solving them, and unblocking them along the way. Tech Leads often carry the team’s context and maintain many of the essential cross-team and cross-functional relationships necessary for the team’s success. They’re a close partner to the team’s product manager and the first person called when the roadmap needs to be shuffled.
+Tech Lead是最常见的Staff原型，在他们的方法和执行方面领导一个团队或一群团队。他们擅长确定复杂任务的范围，协调团队来解决这些问题，帮助unblock团队。Tech Lead通常负责团队的context，并维护许多必要的跨团队和跨职能的关系，这是团队成功的必要条件。他们需要与团队产品经理密切合作，当路线图需要调整时，他们会第一时间上线。
 
 Earlier in their career, they will have implemented their team’s most complex technical projects, but at this point, they default to delegating such projects across the team. They do this both to grow their teammates and in acknowledgment that the team’s impact grows as the Tech Lead’s coding blocks shrink. While they’re coding less, they are still the person defining their team’s technical vision, and stepping in to build alignment within the team on complex issues.
 
+在他们职业生涯的早期，他们将实现团队中最复杂的技术项目，但在这一点上，他们默认将此类项目委派给整个团队。他们这样做既是为了培养团队成员，也是为了认识到随着技术领导的编码块的缩小，团队的影响力也在增长。虽然他们编写的代码更少，但他们仍然是定义团队技术愿景的人，并在团队内部构建复杂问题的一致性。
+
 “The Tech Lead role is, for many folks, their first experience as a Staff engineer. A few forces conspire towards that result. First, the Tech Lead role tends to develop early on within companies that have a strong concept of team, which is common among companies using agile methodologies, and most companies attempt an agile approach at some point. Another factor is that the day-to-day work of a Tech Lead is most similar to the work you’d already be doing as a Senior engineer, making it a fairly intuitive transition. Most importantly, an organization needs roughly one Tech Lead for every eight engineers, making it far more common than other archetypes.
 
+“对于许多人来说，技术领导的角色是他们作为员工工程师的第一次经历。一些势力共谋达到这个结果。首先，技术领导这一角色倾向于在具有强大的团队概念的公司中早期发展，这在使用敏捷方法的公司中很常见，而且大多数公司在某些时候都尝试过敏捷方法。另一个因素是，技术领导的日常工作与你作为高级工程师所做的工作非常相似，这是一个相当直观的过渡。最重要的是，一个组织大约每八个工程师需要一个技术领导，这比其他原型更常见。
+
 “Somewhat confusingly, some companies use Tech Lead as a title, and others use it as a role. In this list of archetypes, the Tech Lead is one approach to operating as a Staff engineer, but it’s quite common to perform the Tech Lead role without having the impact expected of a Staff-level engineer. Indeed, you’ll find non-Staff engineers acting with the behaviors of every archetype. Being a Staff-engineer is not just a role. It’s the intersection of the role, your behaviors, your impact, and the organization’s recognition of all those things.
+
+有些公司把Tech Lead当作头衔，有些公司把它当作角色，这有点令人困惑。在这个原型列表中，技术领导是作为员工工程师的一种方式，但执行技术领导角色却没有员工级别工程师所期望的影响是很常见的。实际上，您会发现非员工工程师处理每个原型的行为。人事工程师不仅仅是一个角色。它是角色、你的行为、你的影响以及组织对所有这些东西的认可的交集。
 
 ## Architect
 
@@ -69,13 +76,9 @@ Folks in this role attend their leader’s staff meetings and work to scale that
 
 要想在这些岗位上取得成功，就必须保持参与其中;了解什么样的工作能让你充满动力是很重要的。Tech Lead和架构师倾向于与相同的人在相同的问题上工作数年，形成紧密的团队意识和共同的目标。有时候，他们的工作重点是也是公司的高优先级任务，有时他们只是不知道在捣鼓啥以至于高管们甚至忘记了团队的存在。
 
-“The Solver and Right Hand bounce from fire to fire, often having more transactional interactions with the folks they’re working with on any given week. They’re tightly aligned with executive priorities and are likely to receive recognition for addressing leadership’s most pressing problems. On the other hand, while they’ll nominally be on a team with other folks, there will generally be little-to-no overlap within their team’s areas of focus, and they’ll often have a limited sense of community.
+Solver和Right Hand会在不同的领域来回切换，经常更多地与他们的同事互动交流。他们随时跟进管理层的高优先级事项，因而更有可能因为解决了领导层最紧迫的问题而获得领导认可。另一方面，虽然他们名义上是和其他人一起在一个团队中，但他们和团队的工作内容通常很少或没有交叉，他们的集体意识也很有限。
 
-Solver和Right Hand会在不同的领域来回跳跃，通常在任何一周都能与他们的同事进行更多的交易互动。他们与管理层的优先事项保持紧密联系，并可能因为解决了领导层最紧迫的问题而获得认可。另一方面，虽然他们名义上是和其他人一起在一个团队中，但他们的团队焦点领域通常很少或没有重叠，他们的社区意识也很有限。
-
-“For each archetype, you’ll find folks who love it and find it deeply rewarding, along with folks who find the work despair-inspiring. While it’s important to aim towards an archetype that fits you well, it’s also worth remembering that over your thirty or forty-year career, you’ll have long enough to spend some time sampling every archetype.”
-
-对于每一个原型，你会发现有人喜欢它并觉得它非常值得，还有人觉得工作令人绝望鼓舞。虽然瞄准适合自己的原型很重要，但也要记住，在你30或40年的职业生涯中，你将有足够的时间去采样每个原型。
+对于每一个原型，你会发现有人喜欢它并觉得它非常有成就感，也有人觉得工作令人绝望。虽然瞄准适合自己的原型很重要，但也要记住，在你30或40年的职业生涯中，你将有足够的时间去尝试每个原型。
 
 
 
