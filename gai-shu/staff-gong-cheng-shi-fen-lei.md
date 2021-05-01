@@ -61,17 +61,21 @@ The Right Hand is the least common of the archetypes, showing up as an organizat
 
 Folks in this role attend their leader’s staff meetings and work to scale that leader’s impact by removing important problems from their plate. Problems addressed at this level are never purely technical and instead involve the intersection of the business, technology, people, culture, and process. Right Hands often dive into a fire, edit the approach, delegate execution to the most appropriate team, and then pop over to the next fire elsewhere in the organization. The joy of these roles is that you only work on essential problems. The tragedy is that you’re always on to the next issue by the time those problems are solved.
 
-## Which is right for you?
+## 哪一种适合你?
 
-As you think about which of these archetypes would fit you, start by reflecting on the kinds of work that energize you, and then consider which roles are available within your company.
+当你考虑这些原型中哪一个适合你的时候，你可以先扪心自问一下哪一种工作类型能让你充满动力，然后再考虑在你的公司中有哪些角色是可用的。
 
-All companies develop a need for engineers who can fill the Tech Lead role, which makes it the most accessible archetype to attain your first Staff engineering role. Companies that emphasize individual ownership rather than team ownership often develop the Solver early. On the other hand, companies that operate under strict sprints or agile methodologies tend to develop that role late, if ever. In the recent crops of fast-growing technology companies, the Architect and Right Hand roles have generally emerged as the organizations reached one hundred and one thousand engineers, respectively, and simply don’t exist beforehand. Companies with other strains of cultural DNA often develop them earlier, or sometimes never.”
+所有公司都需要能够担当Tech Lead角色的工程师，这是你最容易取得的Staff原型角色。强调个人Ownership而不是团队Ownership的公司通常会较早地解锁Solver角色；严格遵从“Sprint”或敏捷方法的公司往往较晚发展出Solver角色。在最近一批快速增长的技术公司中，架构师或Right Hand角色通常分别出现在达到一百或一千名工程师的组织中，在达到这个规模之前一般不会有这两种角色。拥有其他文化DNA的公司有的更早开发出这些角色，有的则完全没有。
 
-“Success in these roles requires remaining engaged; it’s essential to understand what kinds of work energize you. The Tech Lead and Architect tend to work with the same people on the same problems for years, developing a tight sense of team and shared purpose. Some months their focus will be a top company priority, and sometimes they’ll be humming along so well that executives forget their team exists.”
+要想在这些岗位上取得成功，就必须保持参与其中;了解什么样的工作能让你充满动力是很重要的。Tech Lead和架构师倾向于与相同的人在相同的问题上工作数年，形成紧密的团队意识和共同的目标。有时候，他们的工作重点是也是公司的高优先级任务，有时他们只是不知道在捣鼓啥以至于高管们甚至忘记了团队的存在。
 
 “The Solver and Right Hand bounce from fire to fire, often having more transactional interactions with the folks they’re working with on any given week. They’re tightly aligned with executive priorities and are likely to receive recognition for addressing leadership’s most pressing problems. On the other hand, while they’ll nominally be on a team with other folks, there will generally be little-to-no overlap within their team’s areas of focus, and they’ll often have a limited sense of community.
 
+Solver和Right Hand会在不同的领域来回跳跃，通常在任何一周都能与他们的同事进行更多的交易互动。他们与管理层的优先事项保持紧密联系，并可能因为解决了领导层最紧迫的问题而获得认可。另一方面，虽然他们名义上是和其他人一起在一个团队中，但他们的团队焦点领域通常很少或没有重叠，他们的社区意识也很有限。
+
 “For each archetype, you’ll find folks who love it and find it deeply rewarding, along with folks who find the work despair-inspiring. While it’s important to aim towards an archetype that fits you well, it’s also worth remembering that over your thirty or forty-year career, you’ll have long enough to spend some time sampling every archetype.”
+
+对于每一个原型，你会发现有人喜欢它并觉得它非常值得，还有人觉得工作令人绝望鼓舞。虽然瞄准适合自己的原型很重要，但也要记住，在你30或40年的职业生涯中，你将有足够的时间去采样每个原型。
 
 
 
