@@ -2,7 +2,7 @@
 
 ## Staff Engineer: Leadership Beyond the Management Track
 
-### 《高级工程师：管理路线以外的技术领导力》
+### 《高级工程师：管理路线以外的领导力》
 
 * 作者： [Will Larson](https://www.linkedin.com/in/will-larson-a44b543/)
 * 原书名称：[Staff Engineer: Leadership beyond the management track](https://www.amazon.com/Staff-Engineer-Leadership-beyond-management/dp/1736417916/ref=pd_lpo_14_t_0/133-4952682-8709547)

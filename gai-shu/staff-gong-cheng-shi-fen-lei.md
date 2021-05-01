@@ -1,10 +1,10 @@
-# Staff工程师分类
+# Staff工程师的四种原型
 
-“Most [career ladders](https://lethain.com/perf-management-system/) define a single, uniform set of expectations for Staff engineers operating within the company. Everyone benefits from clear role expectations, but career ladders are a tool that applies better against populations than people. This is particularly true for Staff-plus engineers, whose career ladders often paper over several distinct roles hidden behind a single moniker.
+大多数[职业阶梯](https://lethain.com/perf-management-system/)为Staff工程师的工作内容定义了一个单一的，统一的期望值。有一个清晰明确的预期值对大家都是有好处的，但职业阶梯这个工具更适用于一群人，而不是具体的某一个人。这一点对于一些拥有同样名号但是工作内容截然不同的Staff工程师来说尤其如此。
 
-The more folks I spoke with about the role of Staff-plus engineers at their company, the better their experiences began to cluster into four distinct patterns. Most companies emphasized one or two of the patterns, and one pattern only existed in companies with many hundreds or thousands of engineers. A few companies didn’t feature any technical leadership pattern and pushed all their experienced engineers towards engineering management. In literature, recurring character patterns are called archetypes, such as the “hero” or the “trickster,” and the archetype term is helpful for labeling these frequent variants of Staff-plus engineers.
+我和越多的人谈论过员工以上的工程师在他们公司的角色，他们的经验就越集中在四种不同的模式上。大多数公司强调其中的一种或两种模式，而一种模式只存在于拥有数百或数千名工程师的公司。一些公司没有任何技术领导模式，而是把他们所有有经验的工程师都推向了工程管理。在文学作品中，重复出现的角色模式被称为原型，如“英雄”或“恶魔”，而"原型"这个术语有助于标记这些Staff-plus工程师的不同种类。
 
-The four common archetypes of Staff-plus roles I encountered are:
+我所遇到的四种常见的Staff-plus角色原型是:
 
 * The **Tech Lead** guides the approach and execution of a particular team. They partner closely with a single manager, but sometimes they partner with two or three managers within a focused area. Some companies also have a Tech Lead Manager role, which is similar to the Tech Lead archetype but exists on the engineering manager ladder and includes people management responsibilities.
 * The **Architect** is responsible for the direction, quality, and approach within a critical area. They combine in-depth knowledge of technical constraints, user needs, and organization level leadership. 
