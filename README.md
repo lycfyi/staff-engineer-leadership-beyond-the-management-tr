@@ -22,9 +22,7 @@
 
 分享时请注明[出处](https://yucliu.gitbook.io/staff-engineer/)，有反馈的话也欢迎大家给github repo: [https://github.com/cloudlite/staff-engineer-leadership-beyond-the-management-tr](https://github.com/cloudlite/staff-engineer-leadership-beyond-the-management-tr) 发PR或者直接联系[译者LinkedIn](https://www.linkedin.com/in/liuyucheng/)！
 
-### 本书概要
-
-### 捐赠
+## 捐赠
 
 如果您觉得我的工作对您有所帮助，欢迎捐赠crypto到如下地址，您的支持是我最大的动力！
 
