@@ -8,11 +8,7 @@
 
 除了亲自深入挖掘寻找和操作这些Staff以上的角色的话题外，我还认识到，不同的人在达到这些角色时有着非常不同的体验。与我共事过的一些最有才华的人都很难跨过高级工程师这一级。每一次尝试，他们都会遇到系统性的障碍，将他们的晋升周期推得更远。
 
-When I started working on this book, my first step was to outline the chapters and topics. Staring at that outline, I quickly realized that I couldn’t write this book alone. That led to a series of interviews where I got to learn from the remarkable stories of folks reaching their first Staff engineer role and how they operated within those roles after the promotion. Those stories, combined with my own experience supporting, promoting, and hiring Staff-plus engineers as a manager, slowly became this book.
+当我开始写这本书的时候，我的第一步是列出章节和主题。盯着大纲，我很快意识到我不能独自写这本书。这就引出了一系列的采访，在这些采访中，我了解到了人们获得第一个高级工程师职位的故事，以及他们在晋升后是如何在这些职位上运作的。这些故事，加上我自己作为manager支持、提拔和雇佣Staff及以上等级工程师的经验，慢慢地写出了这本书。
 
-当我开始写这本书的时候，我的第一步是列出章节和主题。盯着大纲，我很快意识到我不能独自写这本书。这就引出了一系列的采访，在这些采访中，我了解到了人们获得第一个员工工程师职位的故事，以及他们在晋升后是如何在这些职位上运作的。这些故事，加上我自己支持、提升和雇佣员工以上工程师作为经理的经验，慢慢地成为了这本书。
-
-I hope Staff Engineer helps you refine your vision of what technical leadership can be, and how you can grow towards that vision.
-
-我希望员工工程师帮助您完善您的愿景，即技术领导可以是什么，以及您如何朝着这个愿景发展。
+我希望本书《Staff Engineer》帮助您完善您的愿景，即技术领导可以是什么，以及您如何朝着这个愿景发展。
 
