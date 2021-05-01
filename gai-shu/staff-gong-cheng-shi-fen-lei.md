@@ -13,7 +13,7 @@ The four common archetypes of Staff-plus roles I encountered are:
 
 This taxonomy is more focused on being useful than complete, but so far, I’ve been able to fit every Staff-plus engineer I’ve spoken to into one of these categories. Admittedly, some folks are easier to classify than others.”
 
-### Tech Lead
+## Tech Lead
 
 ![Example calendar for a Tech Lead archetype](../.gitbook/assets/image%20%283%29.png)
 
@@ -27,7 +27,7 @@ Earlier in their career, they will have implemented their team’s most complex 
 
 “Somewhat confusingly, some companies use Tech Lead as a title, and others use it as a role. In this list of archetypes, the Tech Lead is one approach to operating as a Staff engineer, but it’s quite common to perform the Tech Lead role without having the impact expected of a Staff-level engineer. Indeed, you’ll find non-Staff engineers acting with the behaviors of every archetype. Being a Staff-engineer is not just a role. It’s the intersection of the role, your behaviors, your impact, and the organization’s recognition of all those things.
 
-### Architect
+## Architect
 
 ![&#x201C;Example calendar for Architect archetype](../.gitbook/assets/image%20%285%29.png)
 
@@ -39,7 +39,7 @@ The Architect title has fallen out of style in many companies, but the Architect
 
 “The Architect role tends to evolve in relatively large companies, companies with exceptionally complex or coupled codebases, and companies that are struggling to repay the technical debt they created in their initial sprint to product-market fit. Some companies push for Architects to remain deep in the codebase, and others set a clear expectation that Architects must not write code: both models work for some companies.
 
-### Solver
+## Solver
 
 ![Example calendar for Solver archetype](../.gitbook/assets/image%20%287%29.png)
 
@@ -51,7 +51,7 @@ Where most Staff-level roles require a very heavy dose of organizational wrangli
 
 “The Solver is most common in companies that think of individuals, rather than teams, as the atomic unit of planning and ownership. In such companies, it’s common to see the Solver become prevalent in the place of the Tech Lead. You’re less likely to encounter this role at traditionally managed sprint-centric companies until those companies become relatively large or long-lived enough to acquire their own varietal of technical debt.”
 
-### Right Hand
+## Right Hand
 
 ![Example calendar for Right Hand archetype](../.gitbook/assets/image%20%284%29.png)
 
@@ -61,7 +61,7 @@ The Right Hand is the least common of the archetypes, showing up as an organizat
 
 Folks in this role attend their leader’s staff meetings and work to scale that leader’s impact by removing important problems from their plate. Problems addressed at this level are never purely technical and instead involve the intersection of the business, technology, people, culture, and process. Right Hands often dive into a fire, edit the approach, delegate execution to the most appropriate team, and then pop over to the next fire elsewhere in the organization. The joy of these roles is that you only work on essential problems. The tragedy is that you’re always on to the next issue by the time those problems are solved.
 
-### Which is right for you?
+## Which is right for you?
 
 As you think about which of these archetypes would fit you, start by reflecting on the kinds of work that energize you, and then consider which roles are available within your company.
 
