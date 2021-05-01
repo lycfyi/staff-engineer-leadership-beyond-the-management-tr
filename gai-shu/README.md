@@ -1,33 +1,31 @@
 # 概述
 
-“At most technology companies, you’ll reach Senior software engineer, the career level for software engineers, in five to eight years. At the career level, your company’s career ladder won’t require that you work towards the next promotion; being promoted further is an exception rather than expected. This is also when many engineers are first given an opportunity to move into engineering management.
+在大多数技术公司，你会在5到8年后达到高级软件工程师的职业水平。在职业层面上，你公司的职业阶梯并不要求你为下一次晋升而努力\(比如有的公司如果员工几年内没有从L1到L2会被"优化"掉\);被进一步提升并不是一个必然发生的事情。这也是很多工程师第一次有机会接触技术管理的时候。
 
-Over the past few years, we’ve seen a flurry of books unlocking the engineering management career path, like Camille Fournier’s The Manager’s Path, Julie Zhuo’s The Making of a Manager, Lara Hogan’s Resilient Management, and even my own An Elegant Puzzle. The engineering management career isn’t an easy one, but there are maps available to help navigate it.”
+在过去的几年里，我们看到了一堆关于工程管理职业道路的书籍，比如卡米尔·福涅尔的《经理之路》，朱莉·卓的《经理的诞生》，劳拉·霍根的《弹性管理》，甚至还有我自己的《优雅的谜题》。工程管理这一职业并不容易，但有地图可以帮助你找到方向。
 
-“What if you want to advance your career without becoming an engineering manager? Many companies will answer that question by excitedly telling you that they have a two-track software engineering career path. Engineering management is the first track, and the second is technical leadership. The technical leadership track is populated by titles like Staff engineer and Principal engineer. That this second track exists at all is a sign of progress, but there’s much work left to make it both accessible and impactful.
+如果你不想成为工程经理，但想在事业上有所发展，那该怎么办? 许多公司会通过兴奋地告诉你他们有一条双轨软件工程职业道路来回答这个问题。工程管理是第一轨道，其次是技术领导。技术领导的轨道由高级工程师（Staff Engineer）和首席工程师（Principal Engineer）等头衔构成。这第二条轨道的存在是进步的标志，但要想进入这个track并且具有影响力，还有很多工作要做。
 
-![Typical dual-track engineering career ladder](../.gitbook/assets/image%20%286%29.png)
+![&#x5178;&#x578B;&#x7684;&#x5DE5;&#x7A0B;&#x5E08;&#x804C;&#x4E1A;&#x9636;&#x68AF;&#x7684;&#x4E24;&#x6761;&#x8DEF;&#x5F84;](../.gitbook/assets/image%20%286%29.png)
 
-This book standardizes on the most common sequence of titles: going from Senior to Staff, followed by Principal, and then Distinguished. It uses the term Staff-plus as an overarching label for Staff, Principal, and Distinguished titles. Many companies only have a subset of these titles, slowly adding more as their team grows, but companies that only have one technical leadership title almost always use Staff. A few companies use an alternative sequence, but they’re in the minority.
+这本书对最常见的头衔顺序进行了标准化:从资深（Senior）到高级（Staff），然后是首席（Principal），最后是杰出（Distinguished）的。一般用“Staff+”一词作为Staff、Principal和Distinguished头衔的总称。许多公司只拥有这些头衔的一个子集，随着团队的发展会慢慢增加更多，有的公司只有Staff这一个技术领导的头衔。少数公司可能会用其他的头衔序列，但这种情况很少见。
 
+技术领导的职业道路普遍模棱两可，因此很难回答看似简单的关于Staff-plus角色的问题。如果你是一名Senior工程师，想晋升为Staff工程师，你应该培养什么技能?仅仅有技术能力就足够了吗?大多数人是如何进入这些角色的呢?在这个过程中，你的主管扮演什么角色来帮助你?你会喜欢当Staff工程师，还是会辛辛苦苦工作多年，才发现这个岗位并不适合自己?这本书将帮助你回答所有这些问题。
 
+考虑到围绕这些角色的广泛困惑，我知道我不能太依赖自己的经验来写这本书。在整个行业中，有超过12名员工以上的工程师非常友好地分享了他们接触和操作员工以上角色的经验。他们的智慧创造了一些在细微差别、广度和视角上都比我自己写的更丰富的东西。
 
-There is pervasive ambiguity around the technical leadership career path, making it difficult to answer seemingly simple questions about Staff-plus roles. If you’re a Senior engineer and want to reach Staff engineer, what skills should you develop? Are technical abilities alone sufficient? How do most folks move into one of these roles? What is your manager’s role in helping you along the way? Will you enjoy being a Staff engineer, or will you toil for years to reach a role that doesn’t suit you? This book will help you answer all those questions.
+如果你已经在一个Staff+的角色，我希望这些文章能在你探索管理岗以外的领导力的时候为你赋能。如果你正致力于成为这样一个角色，我希望这本书能在你的追求中提供实际的帮助。
 
-“Given the broad confusion around these roles, I knew I couldn’t write this book relying too heavily on my own experience. More than a dozen Staff-plus engineers across the industry were kind enough to share their experiences of reaching and operating in a Staff-plus role. Their wisdom has created something richer in nuance, breadth, and perspective than I could have ever written on my own.
+你可以从头到尾读这本书，也可以跳着读，任何阅读方式都是可以的。
 
-If you’re already in a Staff-plus role, I hope these writings will energize you in your journey as a leader outside the management track. If you aim for such a role, I hope this book will provide pragmatic aid in its pursuit.
+本书包含以下部分:
 
-You can read this book cover to cover, but please jump around if you want. There’s no right or wrong way to read it.
+* **概述** - 检视Staff工程师角色，了解这个角色在不同公司的差异，以及为什么头衔很重要
+* **Staff怎么做** - how to do the work on the other side of the title 
+* **在你现在的岗位上获得头衔** - 如何在你现在的公司获得Staff以上的职位
+* **跳槽获得头衔** - 什么时候以及如何通过跳槽来获得Staff以上头衔
+* **成功故事** - 从Staff+工程师收集的故事，关于他们的工作和他们是如何达到他们的角色的
+* **其他资源** - 如果你想了解更多的话，这里有一系列的模板和阅读资料
 
-Its sections are:
-
-* **Overview** - a survey of the Staff engineer role, how it varies by company, and why the title matters 
-* **Operating at Staff** - how to do the work on the other side of the title 
-* **Getting the title where you are** - how to attain a Staff-plus role at your current company 
-* **Switching companies to get the title** - when and how changing companies can support the pursuit of a Staff-plus title 
-* **Stories** - collected stories from Staff-plus engineers about what they do and how they reached their role 
-* **Resources** - a collection of templates and further readings if you’re looking for more 
-
-Every company puts its spin on Staff-plus roles, so it’s likely that some parts won’t map to your experience. If that’s the case, please take what resonates and discard the rest!
+每家公司都会给自己的Staff+角色加一些自己的特色，所以有些部分很可能与你的经验不相符。如果是这样的话，请只在意那些能引起共鸣的内容，其他的请无视掉吧!
 
