@@ -16,7 +16,7 @@
 
 ## Tech Lead
 
-![&#x4E00;&#x4E2A;&#x5178;&#x578B;&#x7684;Tech Lead &#x539F;&#x578B;&#x7684;&#x6BCF;&#x5468;&#x65E5;&#x7A0B;&#x5B89;&#x6392;](../.gitbook/assets/image%20%283%29.png)
+![&#x4E00;&#x4E2A;&#x5178;&#x578B;&#x7684;Tech Lead &#x6BCF;&#x5468;&#x7684;&#x65E5;&#x7A0B;&#x5B89;&#x6392;](../.gitbook/assets/image%20%283%29.png)
 
 Tech Lead原型案例: Diana Pojar, Dan Na, Ritu Vincent
 
