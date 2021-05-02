@@ -22,51 +22,45 @@ Tech Lead原型案例: Diana Pojar, Dan Na, Ritu Vincent
 
 Tech Lead是最常见的Staff原型，在他们的方法和执行方面领导一个团队或一群团队。他们擅长确定复杂任务的范围，协调团队来解决这些问题，帮助unblock团队。Tech Lead通常负责团队的context，并维护许多必要的跨团队和跨职能的关系，这是团队成功的必要条件。他们需要与团队产品经理密切合作，当路线图需要调整时，他们会第一时间上线。
 
-Earlier in their career, they will have implemented their team’s most complex technical projects, but at this point, they default to delegating such projects across the team. They do this both to grow their teammates and in acknowledgment that the team’s impact grows as the Tech Lead’s coding blocks shrink. While they’re coding less, they are still the person defining their team’s technical vision, and stepping in to build alignment within the team on complex issues.
+在他们职业生涯的早期，他们将实现团队中最复杂的技术项目，但同时，他们默认将此类项目委派给整个团队。他们这样做既是为了培养团队成员，也是承认一点，那就是团队的影响力是随着Tech Lead的代码量减少而增加的（也就是TL不能光顾着写代码）。虽然他们编写的代码更少，但他们仍然是定义团队技术愿景的人，并在团队内部针对复杂项目构建共识。
 
-在他们职业生涯的早期，他们将实现团队中最复杂的技术项目，但在这一点上，他们默认将此类项目委派给整个团队。他们这样做既是为了培养团队成员，也是为了认识到随着技术领导的编码块的缩小，团队的影响力也在增长。虽然他们编写的代码更少，但他们仍然是定义团队技术愿景的人，并在团队内部构建复杂问题的一致性。
+对于许多人来说，Tech Lead的角色是他们第一次作为Staff工程师的经历——这有以下几点原因：首先，在那些有着团队概念的公司中，Tech Lead这一角色出现的很早，这在使用敏捷方法的公司中很常见，而且大多数公司在某些时候都尝试过敏捷方法。另一个因素是，Tech Lead的日常工作与你作为Senior工程师所做的工作非常相似，所以这样的过渡也非常正常。最重要的是，**一个组织大约每八个工程师需要一个Tech Lead**，这比其他原型更常见。
 
-“The Tech Lead role is, for many folks, their first experience as a Staff engineer. A few forces conspire towards that result. First, the Tech Lead role tends to develop early on within companies that have a strong concept of team, which is common among companies using agile methodologies, and most companies attempt an agile approach at some point. Another factor is that the day-to-day work of a Tech Lead is most similar to the work you’d already be doing as a Senior engineer, making it a fairly intuitive transition. Most importantly, an organization needs roughly one Tech Lead for every eight engineers, making it far more common than other archetypes.
+有些公司把Tech Lead当作头衔，有些公司把它当作工作角色，这有点令人困惑。在这个原型列表中，Tech Lead是作为Staff工程师的一种方式，但做着Tech Lead的工作而没有Staff工程师对应的影响力也是很常见的。实际工作中，你会发现有些非Staff工程师也会做一些Staff的工作。Staff工程师不仅仅是一个工作角色，**它是角色、行为、影响力以及组织对这些因素认可程度的交集。**
 
-“对于许多人来说，技术领导的角色是他们作为员工工程师的第一次经历。一些势力共谋达到这个结果。首先，技术领导这一角色倾向于在具有强大的团队概念的公司中早期发展，这在使用敏捷方法的公司中很常见，而且大多数公司在某些时候都尝试过敏捷方法。另一个因素是，技术领导的日常工作与你作为高级工程师所做的工作非常相似，这是一个相当直观的过渡。最重要的是，一个组织大约每八个工程师需要一个技术领导，这比其他原型更常见。
-
-“Somewhat confusingly, some companies use Tech Lead as a title, and others use it as a role. In this list of archetypes, the Tech Lead is one approach to operating as a Staff engineer, but it’s quite common to perform the Tech Lead role without having the impact expected of a Staff-level engineer. Indeed, you’ll find non-Staff engineers acting with the behaviors of every archetype. Being a Staff-engineer is not just a role. It’s the intersection of the role, your behaviors, your impact, and the organization’s recognition of all those things.
-
-有些公司把Tech Lead当作头衔，有些公司把它当作角色，这有点令人困惑。在这个原型列表中，技术领导是作为员工工程师的一种方式，但执行技术领导角色却没有员工级别工程师所期望的影响是很常见的。实际上，您会发现非员工工程师处理每个原型的行为。人事工程师不仅仅是一个角色。它是角色、你的行为、你的影响以及组织对所有这些东西的认可的交集。
-
-## Architect
+## 架构师
 
 ![&#x201C;Example calendar for Architect archetype](../.gitbook/assets/image%20%285%29.png)
 
-“Stories featuring Architect archetype: Joy Ebertz, Katie Sylor-Miller, Keavy McMinn
+架构师原型案例: Joy Ebertz, Katie Sylor-Miller, Keavy McMinn
 
-The Architect title has fallen out of style in many companies, but the Architect role remains alive and well for folks operating at Staff-plus levels. Architects are responsible for the success of a specific technical domain within their company, for example, the company’s API design, frontend stack, storage strategy, or cloud infrastructure. For a domain to merit an Architect, it must be both complex and enduringly central to the company’s success.”
+在许多公司中，架构师这个头衔已经过时了，但是架构师这个角色仍然存在，并且是一个很好的Staff+的工作。架构师负责公司内特定技术领域的实现，例如公司的API设计、前端堆栈、存储策略或云基础设施。一个架构师若想在某个领域有所成就，这个领域必须足够难，而且对公司能否成功具有长期和核心的作用。
 
-“There is a toxic preconception that Architects design systems in isolation and then pass their designs to others to implement. That does happen in some cases, but reciting that stereotype would slander the architects I interviewed. Influential architects dedicate their energy to maintaining an intimate understanding of the business’ needs, their users’ goals, and the relevant technical constraints. They use that insight to identify and advocate for effective approaches within their area of focus, and do it with organizational authority that they’ve earned by demonstrating consistently good judgment.
+有一种错误的先入为主的印象是，架构师是自己一个人设计系统，然后把他们的设计传递给其他人来实现。这种情况在某些情况下确实会发生，但我采访过的架构师肯定会对这种刻板印象非常不满。有影响力的架构师致力于保持对业务需求、用户目标和相关技术局限的深刻理解。他们利用这种洞察力来识别和提倡在他们关注的领域内的有效方法，并通过展示稳定且良好的判断力而获得的组织内的威望。
 
-“The Architect role tends to evolve in relatively large companies, companies with exceptionally complex or coupled codebases, and companies that are struggling to repay the technical debt they created in their initial sprint to product-market fit. Some companies push for Architects to remain deep in the codebase, and others set a clear expectation that Architects must not write code: both models work for some companies.
+架构师角色更有可能出现下面几种公司里：相对较大的公司；具有异常复杂或耦合的代码库的公司；以及在为满足产品市场需求，在一开始的Sprint冲刺开发中留下了太多技术债务，现在需要艰难地这些偿还技术债务的公司。一些公司要求架构师深入到代码库中，而另一些公司则明确要求架构师不能写代码:这两种模型都有适用的场景。
 
 ## Solver
 
 ![Example calendar for Solver archetype](../.gitbook/assets/image%20%287%29.png)
 
-“Stories featuring Solver archetype: Bert Fan, Nelson Elhage
+Solver原型案例: Bert Fan, Nelson Elhage
 
-The Solver is a trusted agent of the organization who goes deep into knotty problems, continuing to work on them until they’re resolved. Folks in this role are moved onto problems identified by organizational leadership as critical and either lacking a clear approach or with a high degree of execution risk.
+Solver是组织中值得信赖的代理人，他深入研究棘手的问题，不断尝试解决它们，直到它们被解决。这一角色的Staff被转移到领导层认定为关键的问题上，这些问题要么没有清晰的解决方案，要么在执行层面有很大的风险。
 
-Where most Staff-level roles require a very heavy dose of organizational wrangling, the Solver generally operates on problems that are already identified as organizational priorities and thus are called on to do relatively little org-level chiropractics. On the other hand, they generally stop working on problems once they’re contained, which can create the feeling of transience and requires a soft touch to avoid infuriating the teams left behind to maintain the “solved” problem.”
+大多数Staff平时经常需要做很多组织协调工作，而Solver通常是在已经确定为组织内高优先级的问题上操作，因此相对而言不怎么需要去给组织结构做"按摩"。另一方面，一旦问题规模被控制住，他们通常就会停止自己的工作内容，这可能会给人一种"怎么变卦了!"的感觉，这就需要一种温和的方式来避免激怒遗留下来的团队，因为还需要他们维护“已解决的”问题。
 
-“The Solver is most common in companies that think of individuals, rather than teams, as the atomic unit of planning and ownership. In such companies, it’s common to see the Solver become prevalent in the place of the Tech Lead. You’re less likely to encounter this role at traditionally managed sprint-centric companies until those companies become relatively large or long-lived enough to acquire their own varietal of technical debt.”
+Solver常见于那些将个人，而非团队视为Ownership基本单位的公司。在这样的公司中，很容易看到Solver取代了Tech Lead的地位。在传统的以管理Sprint为中心的公司，你不太可能遇到这种角色，除非这些公司变得相当大或年限足够长到产生各种特定的技术债务。
 
 ## Right Hand
 
 ![Example calendar for Right Hand archetype](../.gitbook/assets/image%20%284%29.png)
 
-“Stories featuring Right Hand archetype: Michelle Bu, Rick Boone
+Right Hand原型案例: Michelle Bu, Rick Boone
 
-The Right Hand is the least common of the archetypes, showing up as an organization reaches hundreds of engineers and is akin to operating as a senior organizational leader without direct managerial responsibilities. Rick Boone compared his role to the Hand of the King in Game of Thrones and Leo McGarry from The West Wing, operating with the borrowed authority of a senior leader. However, borrowing authority comes with the obligation of remaining deeply aligned with that leader’s approach, beliefs, and values.
+Right Hand是最不常见的原型，会出现在一个拥有数百名工程师的组织中，类似于一个没有直接管理责任的高级组织领导。瑞克·布恩将他的角色比作《权力的游戏》中的国王之手，以及《白宫风云》中的里奥·麦格瑞\(Leo McGarry\)，借用高级领导人的权限来运作。当然，由于权限是借来的，就有义务与领导者的方式、信仰和价值观保持深度一致。
 
-Folks in this role attend their leader’s staff meetings and work to scale that leader’s impact by removing important problems from their plate. Problems addressed at this level are never purely technical and instead involve the intersection of the business, technology, people, culture, and process. Right Hands often dive into a fire, edit the approach, delegate execution to the most appropriate team, and then pop over to the next fire elsewhere in the organization. The joy of these roles is that you only work on essential problems. The tragedy is that you’re always on to the next issue by the time those problems are solved.
+这一职位的员工会参加领导的员工会议，通过解决重要问题来扩大领导的影响力。在这个级别上解决的问题从来不是纯粹的技术问题，而是涉及业务、技术、人员、文化和流程的交集。Right Hand经常会到处救火，修改解决方案，把执行任务委派给最合适的团队，然后继续跳到公司里的下一个困境中。这些角色的乐趣在于你只处理最重要的问题。比较悲惨的则是你永远处在从一个问题奔向下一个问题的过程中。
 
 ## 哪一种适合你?
 
