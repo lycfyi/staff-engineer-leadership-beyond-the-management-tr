@@ -7,7 +7,6 @@
 我所遇到的四种常见的Staff-plus角色原型是:
 
 * **Tech Lead** 指导特定团队的方法和执行。他们有时与某特定主管紧密合作，但有时他们与两个或三个主管在一个重点领域合作。一些公司也有Tech Lead经理的角色，这与Tech Lead原型类似，但处于工程经理的岗位路径上，职责中包括了人员管理。
-* The **Architect** is responsible for the direction, quality, and approach within a critical area. They combine in-depth knowledge of technical constraints, user needs, and organization level leadership. 
 * **架构师**对关键业务的方向、质量和方法负责。ta们需要对技术瓶颈、用户需求和组织级别领导有深入了解。
 * **Solver**会深入研究任意复杂的问题，并找到合适的前进路径。有些人长期专注于某一特定领域。另一些则在组织领导的引导下从一个热点跳到另一个热点。
 * **Right Hand**延伸了高管的注意力，借用他们的范围和权力来运营特别复杂的组织。ta们为大型组织的领导者提供了额外的处理能力。
