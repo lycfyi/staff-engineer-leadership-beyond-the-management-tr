@@ -48,14 +48,6 @@ Staff+工程师往往会意外地被拉进这个房间，做出这样的决定�
 
 ## 探索 
 
-Hill-climbing can’t solve every problem, but it’s so effective that many companies struggle to take other approaches. This can be a consumer-oriented company struggling to support enterprise deals or a mature company struggling to compete with a smaller competitor’s release cadence. It can even be the case that your current business is so valuable that it’s hard to prioritize new businesses, even though the valuable business’ growth rate is trailing downwards.
-
-In the long-term, companies either learn to explore, or they fade away; this isn’t an ignorable challenge. Simply assigning a team that’s mastered hill-climbing to do exploratory work is far from a sure thing, so many companies take a different approach. They find a couple of trusted individuals with broad skills, allocate some resources, and check back in a few months later to see what they’ve discovered. One of those engineers is often a Staff engineer.
-
-This isn’t always a business problem either; it can be any ambiguous, important problem that the company’s systems are ill-shaped to address. It might be reducing your infrastructure costs by an order of magnitude. It might be identifying a multi-region strategy that takes six months instead of three years. It might be addressing the sudden realization that your primary database only has three months of remaining disk space, and you can’t upgrade to a larger size \(in my experience, a surprisingly frequent problem at fast-growing startups\).
-
-This is some of the most rewarding and the riskiest work companies do. It takes a great deal of organizational trust to be trusted with this work, including having enough respect from the business that if you fail, it’s a reflection on the problem and not you.
-
 > 在我目前在孵化器的角色中，我整天都在做prototyping，但在我之前的Tech Lead角色中，我做了很多不同的事情。
 >
 >  - Ritu Vincent
