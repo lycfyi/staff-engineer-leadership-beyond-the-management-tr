@@ -1,72 +1,68 @@
 # 头衔有关系吗？
 
-Does the title even matter?
+如果你是高级工程师，你可能会想，你是否应该追求职员的头衔。这是一项相当大的时间和精力的投资，还需要大量的运气。这个投资值得你花时间吗?
 
-If you’re safely nestled within the comfortable clutches of the Senior engineer career level, you might wonder if you ought to pursue the Staff title. It’s a considerable investment of time and energy, along with requiring a good amount of luck. Is that investment worth your time?
+答案当然是是的! Staff+头衔通常具有三个一贯的优势:
 
-The answer is, of course, that it might be! The three consistent advantages that generally come with a Staff-plus title are:
+* 可以让你不被非正式的资历标准卡脖子
+* 更容易地“进到那个房间”（接触到决策层）
+* 增加当前和职业薪酬
 
-allowing you to bypass informal gauges of seniority,
+潜在的第四个优势是，有些人发现这个头衔赋予了更多的代理权来选择你所从事的项目，但其他人发现代理权的增加被业务责任的相应增加所吞噬。
 
-facilitating access to “the room,”
+## 非正式的资历标准
 
-increase in current and career compensation.
+当我与纳尔逊·埃尔哈格\(Nelson Elhage\)谈到达到Staff级别是否允许他从事新工作时，他回答说：
 
-A potential fourth advantage is that some folks find that the title grants more agency to select the projects you work on, but others find that increase in agency is swallowed by a commensurate increase in accountability to the business.
+> “允许”这个词很有意思，但通常不是允许不允许的问题，因为很少有官方政策规定谁应该扮演什么样的角色。大多数事情都依赖于更非正式的资历标准。
 
-Informal gauges of seniority
+ 许多科技公司称自己追求精英政治，即为有才能的员工创造自然上升到高层的条件。由于没有任何被广泛接受的个人能力衡量标准，这些公司开始依赖尼尔森恰当地称之为“非正式的资历标准”。虽然人们认为这些衡量标准能够客观地评估想法，但它们纯粹的不正式性却成为了偏见的一个广泛载体，常常将自信与能力混为一谈。 
 
-When I spoke with Nelson Elhage about whether reaching the Staff level allowed him to take on new work, he answered:
+从重新建立个人能力的循环中解脱出来，是Staff头衔的一个关键优势。与我交谈过的每一位Staff+的工程师都没有提到这些非正式的标准，但那些不符合公司对经验丰富的技术专家的刻板印象的人经常会提到这些标准。
 
-The question of “allowed” is interesting and might not be quite the right question because there were very few official policies on who got what kind of role. Most things relied on more informal gauges of seniority.
+ Keavy McMinn说道：
 
-Many technology companies describe themselves as pursuing meritocracy, defined as creating the conditions for talented employees to rise to the top naturally. Given there isn’t any widely accepted measure of individual merit, such companies come to rely on what Nelson aptly termed “informal gauges of seniority.” While these gauges are believed to evaluate ideas objectively, their sheer informality becomes a broad vector of bias and often conflate confidence with competence.
+> 当你有了头衔，你就不需要花那么多精力把你的证书放在桌子上。这个头衔就会给别人足够的context。你从一开始就更受尊重，这是很明显的。
 
-Freedom from the cycle of re-establishing one’s competence came up frequently as a key advantage of the Staff title. These informal gauges weren’t mentioned by every Staff-plus engineer I spoke with, but they were routinely mentioned by individuals who didn’t conform to their company’s stereotype of an experienced technologist.
+一个Staff+职称可以让你把之前用来证明自己的精力重新投入到评估你的核心工作中。如果你发现自己没有投入太多精力去证明自己，那很好!也许你已经在现在的公司工作了很长时间，并且证明了自己足够多的时间，这不再是一个问题。如果你发现自己的时间被花在了自我证明和自我纠正上，那么这个头衔将会给你带来相当多的时间来进行再投资。
 
-Keavy McMinn shared,
+## 能够进到那个房间
 
-When you have a title, you don’t have to spend so much energy putting your credentials on the table. It helps set the context for others. You’re more respected from the outset, and that’s been really noticeable.
+Staff+头衔的另一个常见优势是能进“那个房间”。丹娜这样描述，
 
-A Staff-plus title allows you to reinvest the energy you’ve previously spent on proving yourself into the core work you’re evaluated on. If you find that you’re not investing much energy into proving yourself, that’s great! Perhaps you’ve been at your current company long enough and proven yourself enough times that it’s no longer an issue. If you do find your time diverted towards proving and reproving yourself, the title will return a considerable measure of time to you for reinvestment.
+> 我参与了更高层次的工程讨论，这些讨论发生在单个项目和团队之上。我们经常召开员工工程会议，讨论跨团队的技术和非技术问题。比方说，我觉得在这种类型的会议中，我可以轻松地提出我所认为的onboarding过程中的缺点。
 
-Being in the room
+对于任何重要的决定，在做出核心决定之前都有时间，然后才是后面的执行。在更高级的职位上，你相对比较容易去协作，因而你通常可以提供正确的建议，否则你的反馈可能不会被囊括进来——尽管非常有价值——因为相关的推广或实施已经进展得太远了。
 
-Another frequent advantage of a Staff-plus title is “being in the room.” Dan Na described this as,
+## 薪酬
 
-I have a seat at the table in higher-level engineering discussions that occur at a level above individual projects and teams. We have recurring staff engineering meetings where we discuss problems that span teams which are both technical and non-technical in nature. As a hypothetical example, I’d feel comfortable surfacing what I perceive as shortcomings in the engineering onboarding process in this type of meeting.
+小公司往往有相当随意的薪酬，而加薪来自于直接和你的经理谈判。在这样的公司里，晋升到员工以上的职位甚至可能不会给你带来相应的薪酬增长。然而，大多数公司在员工达到100到200人时，会为每个角色设定薪酬范围。这些薪酬范围通常会确保你的薪酬随着职位的增加而增加。
 
-For any important decision, there’s the time leading up to the core decision being made, and then there’s everything afterward. In more senior roles, you’re often in the right place to provide input when it’s relatively cheap to incorporate, where otherwise your feedback might not be incorporated–despite being very valuable–because the related roll out or implementation has advanced too far.
+在任何一家公司中，薪酬最高的职位往往是高管和高级管理职位。随着公司的成长，他们通常会在管理和工程角色之间建立一个薪酬映射，比如达到Staff +角色\(有时是Sr Staff或Distinguished角色，而不是最初的Staff角色\)将显著提高你的薪酬。
 
-Compensation
+即使你现在的公司对员工以上的工程师职位和高级工程师职位的补偿没有很大的不同，但有些公司会。在你的职业生涯中，你可以选择进入这样的公司，并且在这样做的时候加上Staff+的头衔将有意义地增加你的终生收入。
 
-Small companies tend to have fairly ad-hoc compensation, and increases come from direct negotiation with your manager. A promotion to a Staff-plus role in such a company might not even come with a corresponding increase in your compensation. However, most companies introduce compensation bands for each role by the time they reach one to two hundred folks. Those compensation bands will generally ensure your compensation increases along with the role.
+## 获得有趣的工作
 
-The highest-paid roles at any company tend to be the executive and senior management roles. As companies grow, they typically create a compensation mapping between management and engineering roles, such that reaching Staff-plus roles \(and sometimes this is Sr Staff or Distinguished roles rather than the initial Staff role\) will significantly bump your compensation.
+许多人担任Staff+的角色，相信这会让他们获得最引人注目或最令人兴奋的工作。这在某种程度上是正确的，但这取决于在你的公司最流行的员工原型。例如，Solver经常能得到最有趣的工作。相反地，如果Tech Lead以这种方式运作，他们很可能会破坏团队。
 
-Even if your current company doesn’t compensate for Staff-plus engineer roles much differently than for Senior engineer roles, some companies do. Throughout your career, you can choose to steer towards such companies, and doing so with a Staff-plus title will meaningfully increase your lifetime earnings.
+在我交谈过的人中，获得有趣工作最有效的方式就是一开始就是被雇去做这事，比如Ritu Vincent被雇佣去创建Dropbox的产品孵化器，Keavy McMinn被雇佣去设计Fastly的API策略。
 
-Access to interesting work
+这并不总是有效的。有时，有趣的工作即便显而易见，仍然难以获得。你会因为公司的要求而不是个人兴趣去做一个项目。在早期的工作中，您可能会将这类个人兴趣项目偷偷地添加到待办事项列表中（也没人在意），但是现在你（作为Staff+）有义务妥善处理，不要瞎搞。即使这个项目对公司来说是好的，你也经常需要决定把这个机会让给另一个比你更能从中受益的工程师。
 
-Many folks take on Staff-plus roles believing it will give them access to the most visible or exciting work. That’s true to some extent, but it depends on the Staff archetypes which are most prevalent at your company. For example, Solvers often do get access to the most interesting work. Conversely, a Tech Lead would probably be undermining their team if they operated that way.
+## 不同而不是更好
 
-Among the folks I’ve spoken with, the most consistently effective way to get access to interesting work is being hired to do it, such as Ritu Vincent who was hired to launch Dropbox’s product incubator and Keavy McMinn who was hired to design Fastly’s API strategy.
+尽管头衔很重要，但你不一定要追求这个角色。即使你喜欢员工头衔带来的特权和福利，也要意识到他们来自于一份非常不同的工作，这很重要。米歇尔·布\(Michelle Bu\)在给那些追求“Staff”头衔的人的建议中抓住了这一点：
 
-This doesn’t always work out. Sometimes the interesting work will be plainly visible but still inaccessible. You’ll be too obligated to the business’ needs to pursue a project out of personal interest. In earlier roles, you might be able to sneak that sort of project into your backlog, but now you’ll have a responsibility to model good behavior. Even in cases where the project is the best thing for the company, you’ll often decide to pass the opportunity on to another engineer who would benefit from it more than you would.
+> 如果你更专注于追求Staff头衔，而不是让自己去做那些让自己充满活力的工作，很容易就会陷入你不想要的工作中。作为一名Staff+工程师，特别是一个工作范围广泛的Staff+工程师，是一个与Senior工程师非常不同的工作。退一步想想这是不是你真正想要的工作，这很重要。
 
-Different rather than better
+高级职称的优势是真实存在的，对一些人来说，这些优势使他们的职业从生存的特点转变为具备成功的必要条件。然而，许多人发现他们的Staff角色的高度期望反而减弱了他们对工作的热情。在你的职业生涯中，没有什么选择是没有后果的，头衔也一样。
 
-Even though the title does matter, it’s not necessarily the case that you ought to pursue the role. Even if you love the privileges and perks of a Staff-plus title, it’s important to recognize that they come on the back of a very different job. Michelle Bu captured this in her advice for folks pursuing the Staff title,
+## 物质而非魔力
 
-If you’re more focused on hitting Staff than on setting yourself up to do work that energizes you, it’s easy to end up stuck in a role you don’t want. Being a Staff-plus engineer, especially a broad-scoped Staff-plus engineer, is a very different job than being a Senior engineer. It’s important to take a step back and think about whether it’s a job you really want.
+你偶尔会遇到一位工程师，他认为获得某种头衔是他们获得重要成就或机会的唯一障碍。这些人可能会表达不满，比如，“如果我有Staff的头衔，我可以决定我们团队的技术堆栈。”
 
-The advantages of senior titles are real, and for some folks, those advantages shift their career from one characterized by survival to one with the necessary prerequisites for their success. However, many folks find that their Staff role’s heightened expectations eliminate the work that used to excite them. In your career, there are few choices without consequences, and this isn’t one of them.
+高一级的头衔确实提供了解决问题的新工具，但是在一个管理良好的组织中成功地保留组织权威需要大量的细微差别和约束。如果你有问题，并且认为你的头衔是唯一阻碍你前进的东西，我想向你保证，专注于发展你的方法和技能将比头衔更有影响力。当你接近目标时，头衔会让你跨过一些门槛，但它永远不会像你期望的那样那么有用。
 
-Material but not magic
-
-You’ll occasionally meet an engineer who believes that attaining a certain title is the only thing standing between them and an important accomplishment or opportunity. Such folks might express frustrations, such as, “If I just had the Staff title, I could decide the technology stack for our team.”
-
-Increased organizational authority does provide new tools for solving problems, but successfully retaining organizational authority in a well-managed organization requires a great deal of nuance and restraint. If you have a problem and believe that your title is the only thing holding you back, I want to reassure you that focusing on developing your approach and skills will be far more impactful than the title. The title will get you over the ledge once you’re close, but it’ll never do as much work as you’d expect.
-
-The one consistent exception to this rule is that women and minorities often do find they spend significantly less time and energy, proving themselves once they attain a Staff-plus title. The title doesn’t unlock new abilities for them, but it does remove some of the weight they’d been carrying with them throughout their career.
+这条规则的一个一贯例外是，女性和少数族裔往往发现，一旦获得“Staff+”头衔，他们花在证明自己上的时间和精力明显更少。头衔并不能为他们开启新的能力，但却能够帮助他们摆脱在职业生涯中所背负的一些负担。
 
