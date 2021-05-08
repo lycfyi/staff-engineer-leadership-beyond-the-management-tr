@@ -38,14 +38,6 @@
 
 更糟糕的是，要想成为一个成功的爱慕虚荣的人，你需要大量精力让自己实际影响力水平不被人批评。如果你的精力被用于打扮，你真正的工作就会受到影响。通常情况下，这意味着你要么是一个没啥实际用处的高级领导者，要么只是按照公司认为的领导者的形象和行为来展示自己。如果你本身并不是这样的人，那么你试图通过妥协自己的良好判断去换来公司内部成功的行为最终将以失败告终: 你要为缺乏真正影响力而负责，而其他符合公司对领导者形象预期的人则会不知不觉中升上来。
 
-Existential issues
-
-Now that you’re done snacking, preening, and chasing ghosts, it’s time to to start thinking from the other direction: what should you work on? The first place to look for work that matters is exploring whether your company is experiencing an existential risk. Companies operate in an eternal iterative elimination tournament, balancing future success against surviving until that future becomes the present. If you’re about to lose one of those rounds, then always focus there.
-
-Running out of money, like my experience at Digg, can be the most obvious issue, but not every existential issue is financial, like Twitter’s fail whale stability challenges or adapting to the shifts caused by the Covid-19 pandemic.
-
-If something dire is happening at your company, then that’s the place to be engaged. Nothing else will matter if it doesn’t get addressed.
-
 ## 停止追逐"鬼魂"\(过去的经验\)
 
 许多人会假设公司里的理性的优化者会避免在低影响高花费的项目上花费太多时间。不幸的是，情况并非总是如此。一个新的高层领导加入一家公司，立即推动战略转变，但是却从根本上误解了公司面临的挑战，这是非常常见的。过去的阴影牢牢地控制着他们对新公司的理解，以至于他们错误地把熟悉的东西当成了本质。
@@ -56,59 +48,41 @@ If something dire is happening at your company, then that’s the place to be en
 
 ## 存在的问题
 
-现在你已经完成了零食、梳理和追逐鬼魂的工作，是时候开始从另一个方向思考了:你应该做什么?找工作的第一步就是要了解你的公司是否正面临生存风险。公司在无休止的迭代淘汰赛中运作，平衡未来的成功与生存，直到未来成为现实。如果你即将输掉其中一回合，那就专注于这一回合。
+现在你已经不再"吃零食"、"整理羽毛"和"追逐鬼魂"，是时候开始思考: 那应该做什么?找工作的第一步就是要了解你的公司是否正面临生存风险。公司在无休止的迭代淘汰赛中运作，平衡未来的成功与当下的生存，直到未来成为现实。如果你即将输掉其中一回合，那就专注于这一回合。
 
-像我在Digg的经历一样，钱花光可能是最明显的问题，但并不是所有存在的问题都是财务问题，比如Twitter的[失败鲸鱼](http://www.yiyinglu.com/?portfolio=lifting-a-dreamer-aka-twitter-fail-whale)稳定性挑战或适应Covid-19大流行造成的变化。
+像我在Digg的经历一样，钱花光可能是最明显的问题，但并不是所有存在的问题都是财务问题，比如Twitter的"[失败鲸鱼](http://www.yiyinglu.com/?portfolio=lifting-a-dreamer-aka-twitter-fail-whale)"稳定性问题或适应Covid-19疫情造成的变化。
 
 如果你的公司发生了什么可怕的事情，那么这就是你应该参与的地方。如果这个问题得不到解决，其他什么都无关紧要。
 
-Work where there’s room and attention
-
-Existential issues are usually not the most efficient place to add your efforts, but efficiency isn’t a priority when the walls are crashing down around you. You should swarm to existential problems, but if a problem isn’t existential, then you should be skeptical of adding your efforts where everyone’s already focused. Folks often chase leadership’s top priority, but with so many folks looking to make their impact there, it’s often challenging to have a meaningful impact.
-
-Instead, the most effective places to work are those that matter to your company but still have enough room to actually do work. What are priorities that will become critical in the future, where you can do great work ahead of time? Where are areas that are doing ok but could be doing great with your support?
-
-Sometimes you’ll find work that’s worthy of attention but which an organization is incapable of paying attention to, usually because its leadership doesn’t value that work. In some companies, this is developer tooling work. In others, it’s inclusion work. In most companies, it’s glue work.
-
-There is almost always a great deal of room to do this sort of work that no one is paying attention to, so you’ll be able to make rapid initial progress on it, which feels like a good opportunity to invest. At some point, though, you’ll find that the work needs support, and it’s quite challenging to get support for work that a company is built to ignore or devalue. Your early wins will slowly get eroded by indifference and misalignment, and your initial impact will be reclaimed by the sands of time.
-
-Does this mean you shouldn’t do inclusion work? No, that’s not the conclusion I want you to take away from this. Sometimes an area that an organization doesn’t pay attention to is so important that you’re going to want to advocate for it to start paying attention. Teaching a company to value something it doesn’t care about is the hardest sort of work you can do, and it often fails, so you should do as little of it as you can, but no less. As a senior leader, you have an ethical obligation that goes beyond maximizing your company-perceived impact, but it’s important to recognize what you’re up against and time your efforts accordingly.
-
-Foster growth
-
-One area that’s often underinvested in \(e.g., lots of room to work in\) while also being highly leveraged is growing the team around you. Hiring has a lot of folks involved in it, usually in terms of optimizing the hiring funnel, but onboarding, mentoring, and coaching are wholly neglected at many companies despite being at least as impactful as hiring to your company’s engineering velocity.
-
-If you start dedicating even a couple of hours a week to developing the team around you, it’s quite likely that will become your legacy long after your tech specs and pull requests are forgotten.
-
 ## 在有发挥空间和获得注意的地方工作
 
-存在主义问题通常不是你努力的最有效的地方，但当你周围的墙倒塌时，效率不是优先考虑的。你应该蜂拥去解决存在的问题，但如果一个问题不是存在的，那么你应该怀疑在每个人都已经关注的地方投入你的努力。人们经常追求领导的首要任务，但有这么多的人希望在那里发挥他们的影响力，通常很难产生有意义的影响。
+存在的问题通常不是你努力的最有效的地方，但就好像当你周围的墙快倒塌时，效率不是优先考虑的——你应该全力以赴去解决存在的问题。但如果一个问题还不是迫在眉睫的，那么你应该反思一下是不是要去其他人都已经在关注的地方投入你的努力。人们经常追求领导要求的首要任务，但有这么多的人挤在那里希望发挥影响力，反而很难产生有意义的影响。
 
-相反，最有效的工作场所是那些对你的公司重要，但仍有足够空间实际工作的地方。哪些事情在未来会变得非常重要，哪些事情可以让你提前做好工作?哪些领域做得不错，但在你的支持下可以做得很好?
+相反，最有效的工作场所是那些对你的公司重要，但仍有足够发挥空间的地方。哪些事情在未来会变得非常重要，哪些事情可以让你提前做好工作?哪些领域做得不错，但在你的支持下可以做得很好?
 
-有时候你会发现一些值得关注的工作，但是组织却没有能力去关注，通常是因为他们的领导不重视这些工作。在一些公司，这是开发人员的工具工作。在其他方面，它是包容性的工作。在大多数公司，这是胶水工作。
+有时候你会发现一些值得关注的工作，但是组织却没有能力去关注，通常是因为他们的领导不重视这些工作。在一些公司，这是开发人员的工具开发工作；在一些地方，是包容性的工作；在大多数公司，这是粘合剂工作。
 
 几乎总是有大量的空间去做这类没有人关注的工作，所以你将能够在这方面取得快速的初步进展，这是一个很好的投资机会。不过，在某些时候，你会发现工作需要支持，而要为一个被公司忽视或贬低的工作获得支持是相当困难的。你早期的胜利会慢慢地被冷漠和错位所侵蚀，你最初的影响会随着时间的流逝而恢复。
 
-这是否意味着你不应该做包容工作?不，这不是我想让你们得出的结论。有时候，一个组织没有注意到的领域非常重要，以至于你想让它开始关注你。教会一个公司重视它不关心的东西，是你能做的最困难的事情，而且经常失败，所以你应该尽可能少做，但不能少做。作为一名高级领导者，你的道德义务不仅仅是最大化公司感知到的影响，但重要的是要认识到你面临的挑战，并相应地为自己的努力安排时间。
+这是否意味着你不应该做普通的工作?不，这不是我想让你们得出的结论。有时候，一个组织没有注意到的领域非常重要，以至于你想让它开始关注你。教会一个公司重视它不关心的东西，是你能做的最困难的事情，而且经常失败，所以你可以少花一些精力去做，但不能一点都不做。作为一名高级领导者，你的道德义务不仅仅是最大化公司感知到的影响，但重要的是要认识到你面临的挑战，并相应地为自己的努力安排时间。
 
-## 促进经济增长
+## 促进增长
 
-有一个方面经常投资不足\(例如，有很大的工作空间\)，但同时又被高度利用，那就是发展你周围的团队。招聘有很多人参与其中，通常是在优化招聘渠道方面，但许多公司完全忽视了入职、指导和指导，尽管这至少与招聘对公司工程速度的影响一样大。 如果你开始每周花几个小时去开发你周围的团队，这很可能会成为你的遗产，即使你的技术规格和拉请求被遗忘了。
+有一个方面经常重视不够\(也就是说，有很大的发挥空间\)，但同时又非常有用的，那就是发展你周围的团队。招聘有很多人参与其中，通常是在优化招聘渠道方面，但许多公司完全忽视了入职、mentoring和coaching，尽管这至少与招聘对公司工程速度的影响一样大。 如果你开始每周花几个小时去开发你周围的团队，这很可能会成为你的遗产，即使你的技术贡献和代码被遗忘了。
 
-Edit
+## 一些小的修正也很有用
 
-A surprising number of projects are one small change away from succeeding, one quick modification away from unlocking a new opportunity, or one conversation away from consensus. I think of making those small changes, quick modifications, and short conversations as editing your team’s approach.
+有惊人的多的项目都是只需要一个小的改变就能成功，或者一个快速的修改就能开启一个新的机会，或者一次对话就能达成共识。我认为将这些小的改变、快速的修改和简短的对话作为修正团队的方法。
 
-With your organizational privilege, relationships you’ve built across the company, and ability to see around corners derived from your experience, you can often shift a project’s outcomes by investing the smallest ounce of effort, and this is some of the most valuable work you can do.
+凭借你的组织特权，你在公司建立的关系，以及从你的经验中获得的观察周围情况的能力，你通常可以通过投入最小的努力来改变项目的结果，这是你可以做的最有价值的工作之一。
 
-It’s particularly valuable because it’s quick, it’s easy, it’s highly motivating for both you and the person you help, and it’s hugely impactful when done well. \(Also, it’s highly demotivating when done poorly, so your approach matters!\)
+它特别有价值，因为它快速、简单，它对你和你帮助的人都有很强的激励作用，如果做得好，它会产生巨大的影响。\(另外，如果做得不好，会让人非常沮丧，所以你的方法很重要!\)
 
-Finish things
+## 把一些项目收尾掉
 
-One special sort of editing is helping finish a project that just can’t quite close itself out. Often you’ll have a talented engineer earlier in their career who is already doing the work but can’t quite create buy-in or figure out how to rescope their project into finishable work. It’s surprisingly common that coaching a teammate on how to tweak a project into something finishable and then lending them your privilege to budge the right friction points will transform a six-month slog into a two-week sprint with almost an identical impact.
+一种特殊的修正方式是收尾一个没办法结束的项目。通常情况下，你会遇到一个很有才华的工程师，他在职业生涯的早期已经开始工作了，但却不能完全投入工作，或者不知道如何将他们的项目转变成可以收尾的工作。你常常可以做这一件事：指导一个团队成员如何将一个项目调整为可收尾的，然后借给他们你的特权去解决摩擦点，这说不定可以把一个6个月的艰难流程转化为一个2周的Sprint冲刺，而达到的效果却基本上一样。
 
-We only get value from finishing projects, and getting a project over the finish line is the magical moment it goes from risk to leverage. Time spent getting work finished is always time well spent.
+我们只能从完成项目中获得价值，而让一个项目越过终点线就是它从风险变成影响力的神奇时刻。把时间花在收尾工作上总是值得的。
 
 What only you can
 
@@ -118,37 +92,17 @@ This work is an intersection of what you’re exceptionally good at and what you
 
 Whatever it is, things that simply won’t happen if you don’t do them are your biggest opportunity to work on something that matters, and it’s a category that will get both narrower and deeper the further you get into your career.
 
-Why it matters
+## 只有你能做到的事
 
-Suppose you’re interviewing for a new role twenty years into your career. Will the folks interviewing you understand your real impact on any of your previous projects or companies? No, I guarantee they won’t. Instead, you’ll find yourself judged by a series of surprisingly subjective measures: your accumulated prestige, the titles you’ve had and companies you’ve worked at, your backchannel reputation, and how you present in your interview process.
-
-You can’t escape subjective interview practices, but you can deliberately accumulate expertise from doing valuable work. Indeed, that’s the only viable long-term bet on your career: focus on work that matters, do projects that develop you, and steer towards companies that value genuine experience.
-
-## 编辑
-
-一个小的改变就能成功，一个快速的修改就能开启一个新的机会，或者一次对话就能达成共识，这些项目数量之多令人惊讶。我认为将这些小的改变、快速的修改和简短的对话作为编辑团队的方法。
-
-凭借你的组织特权，你在公司建立的关系，以及从你的经验中获得的观察周围情况的能力，你通常可以通过投入最小的努力来改变项目的结果，这是你可以做的最有价值的工作之一。
-
-它特别有价值，因为它快速、简单，它对你和你帮助的人都有很强的激励作用，如果做得好，它会产生巨大的影响。\(另外，如果做得不好，会让人非常沮丧，所以你的方法很重要!\)
-
-## 完成的事情
-
-一种特殊的编辑方式是帮助完成一个不能自我封闭的项目。通常情况下，你会遇到一个很有才华的工程师，他在职业生涯的早期已经开始工作了，但却不能完全投入工作，或者不知道如何将他们的项目转变成可完成的工作。指导一个团队成员如何将一个项目调整为可完成的，然后借给他们你的特权去调整正确的摩擦点，这将把一个6个月的艰难转变成一个2周的冲刺，几乎具有相同的效果，这是非常普遍的。
-
-我们只能从完成项目中获得价值，而让一个项目越过终点线就是它从风险变成杠杆的神奇时刻。把时间花在完成工作上总是值得的。
-
-## 只有你能做到
-
-最后一类重要的工作是你有能力完成的那种工作。当然，有些工作你比其他人做得更快或更好，但更重要的是，有些工作如果你不做就不会发生。
+最后一类重要的工作是只有你才有能力完成的那种工作。当然，有些工作你比其他人做得更快或更好，但更重要的是，有些工作如果你不做就不会发生。
 
 这项工作是你特别擅长的和你真正关心的东西的交集。它可能是编写公司的技术战略，让人们能够真正遵循，它可能是说服一个优秀的候选人加入，它可能是改变你的CEO关于如何偿还技术债务的想法，它可能是制作一个有眼光的API。
 
-不管是什么，如果你不去做就不会发生的事情是你从事重要工作的最大机会，而且随着你在职业生涯中越深入，这个类别就会越窄越好。
+不管是什么，如果你不去做就不会发生的事情是你从事重要工作的最大机会，而且随着你在职业生涯中越深入，这个类别就会越狭窄、越专业。
 
-## 为什么它很重要
+## 为什么在真正重要的事情上努力很重要
 
-假设你正在面试一个已经进入职业生涯二十年的新角色。面试你的人是否了解你对之前的项目或公司的真正影响?不，我保证他们不会。相反，你会发现自己被一系列出人意料的主观标准所评判:你累积的声望、你的头衔和曾工作过的公司、你的幕后声誉，以及你在面试过程中的表现。
+假设你正在面试一个已经进入职业生涯二十年的新角色。面试你的人是否了解你对之前的项目或公司的真正作用? 不，我保证他们不会。相反，你会发现自己被一系列惊人主观的标准所评判: 你累积的声望、你的头衔和曾工作过的公司、你在其他渠道里的声誉，以及你在面试过程中的表现。
 
-你无法逃避主观的面试实践，但你可以有意识地从有价值的工作中积累经验。的确，这是你职业生涯中唯一可行的长期赌注:专注于重要的工作，做能让你成长的项目，并向重视真实经验的公司发展。
+你无法逃避这些非常主观的面试标准，但你可以有意识地从有价值的工作中积累经验。的确，这是你职业生涯中唯一可行的长期投资: 专注于重要的工作，做能让你成长的项目，并逐渐加入那些重视真正能力的公司发展。
 
