@@ -1,36 +1,29 @@
-# Operating at Staff
+# Staff工程师操作手册
 
-One of the best pieces of advice that someone gave me, and that I make sure to pass on to other staff engineers, is that there’s a misconception that you become a Staff engineer and then you’ll be in control of the work you do, and everyone will listen to you and do what you want them to do. That’s absolutely the opposite of what happens! - Katie Sylor-Miller
+> 我从别人那得到的最好的建议，我一定要分享给其他Staff工程师：有一种误解,你成为一个Staff工程师,然后你就能控制你的工作,而且每个人都听你的,做你想让他们做的事。实际情况完全是相反的!
+>
+> —Katie Sylor-Miller
 
-Many engineers become focused on the Staff-plus career path because the engineering manager path has too many meetings or requires too much collaboration with other coworkers, and yikes, are you going to be surprised if you begin a Staff-plus with that mindset. Although Staff engineer roles are generally positioned as the sequential step beyond Senior engineer, it’s genuinely a different role, and you’ll increasingly spend your time doing sorts of work that you previously did infrequently or not-at-all.
+许多工程师开始关注Staff+的职业道路，因为技术经理有太多的会议，或者需要与其他同事进行太多的合作。如果你以这种心态开始一个员工+的职业道路，那你估计会对实际情况感到惊讶。尽管Senior工程师紧跟着下面一级就是Staff工程师，但这两个确实是一个不同的角色，你将越来越多地把时间花在以前很少或根本没有做过的工作上。
 
-There is a significant learning curve in Staff-plus roles that initially trip most folks up. Part of the challenge is that much of the work you’re doing has a much slower feedback cycle. The delayed feedback can initially feel quite demoralizing as you replace the visceral coding REPL with the uneven progress of mentorship, relationship building, and strategy.
+在Staff+角色中有一个重要的学习曲线，最初会绊倒大多数人。其中一个挑战是，你正在做的很多工作都有一个非常慢的反馈周期。当你面对的是Mentorship、建立关系和设定策略而不是在REPL环境写代码，这些延迟的反馈最初会让你感到相当沮丧。 这一章是关于克服学习曲线，学习作为一个Staff工程师，并找到角色的部分，使个人实现和组织变革。
 
-This chapter is about overcoming that learning curve, learning to operate as a Staff engineer, and finding the parts of the role which are personally fulfilling and organizationally transformative.
+## 本章话题
 
-Topics
+在这本书的采访中，以及我自己领导和指导Staff+工程师的经验中，一些话题不断出现，成为个人发展的基石。它们并不是你在这个职位上能做的所有事情，但它们是你最有可能产生巨大影响或不小心做出限制职业发展的举动的地方。
 
-In the interviews for this book, as well as my own experience leading and coaching Staff-plus engineers, a handful of topics kept coming up as keystones of personal development. They aren’t everything you’ll do in the role, but they are the places where you’re most likely to have an outsized impact or accidentally commit a career-limiting move.
+1. **在重要的事情上努力**使你的工作时间得到最大的利用，特别是当你在职业生涯和生活中的承诺不断扩大的时候。
+2. **编写工程策略**来指导您的组织通过其体系结构、技术选择和组织结构来支持公司的业务目标。
+3. **管理技术质量**以保持公司架构和软件的质量。
+4. 要作为一个有效的领导者，必须**与权威保持一致**。技术领导角色依赖于来自另一个\(通常是管理\)领导的代理权限，而能否持续拥有该权限取决于你能否和权威保持一致、可信和可预测。
+5. **要想领导，你必须先学会跟随**。对事情应该如何运作有一个直观感觉是一个强有力的领导工具，但也必须学会将你的愿景与你的同事和领导的愿景相结合。
+6. **学会永远不要犯错。**从想做那个正确的人转向理解和沟通。停止将你的社会资本用于修复因冲突而受损的关系，学会与有不同优先级和不同观点的人合作。这还带来了一个额外的好处，那就是很少有人向你的经理抱怨你。
+7. **为他人创造空间**，让你的团队比你的贡献更强大。 
+8. **建立一个同事网络。**在审查困难的决定或者当你的领导开始和稀泥时，能给你提供诚实的反馈。
 
-Work on what matters to make the most of the working hours you have, particularly as you get further along in your career and life’s commitments expand.
+一个敏锐的读者会注意到在“Staff工程师到底是做什么的?”在这个主题列表中缺失了:第一个是“Mentorship和Sponsorship”，第二个是“成为粘合剂”。这两个概念对于Staff+工程师的成功都是必不可少的，但最终，我认为关于这些主题的权威文章已经存在，你最好阅读这些内容，而不是我的冗长的重复。为了获得Mentorship和Sponsorship，花些时间看劳拉·霍根的《[WHAT DOES SPONSORSHIP LOOK LIKE?](https://larahogan.me/blog/what-sponsorship-looks-like/)》。了解粘合剂的角色，花点时间看看塔尼娅赖利\(Tanya Reilly\)的《[Being Glue](https://noidea.dog/glue)》。
 
-Write an engineering strategy to guide your organization’s approach to supporting your company’s business objectives with its architecture, technology selection, and organizational structure.
+当您有意地在这些领域中进行实践时，您将慢慢地从一个新晋的Staff工程师成长为一个值得信任的组织领导。也就是说，这些不会涵盖你做的所有事情。有时你会发现自己的角色与工程总监惊人地相似，而有时又与之前的工作出奇地类似。
 
-Curate technical quality to maintain the quality of your company’s architecture and software as it grows and tacks over time.
-
-Stay aligned with authority to remain an effective leader over time. Technical leadership roles rely on proxied authority from another \(usually, managerial\) leader, and continued access to that authority depends on staying aligned, trustworthy, and predictable.
-
-To lead, you have to follow. Having a vivid sense of how things ought to work is a powerful leadership tool, but it’s also essential to learn to blend your vision with the visions from your peers and leadership.
-
-Learn to never be wrong shift away from being right and towards understanding and communication. Stop spending your social capital repairing relationships frayed by conflict, and learn to collaborate with folks with different priorities and perspectives. This also comes with the added benefit of fewer folks complaining about you to your manager.
-
-Create space for others so that your team grows stronger than your contribution.
-
-Build a network of peers to vet difficult decisions and to give you honest feedback when your role’s authority starts to temper feedback.
-
-An astute reader will notice two critical themes discussed in What do Staff engineers actually do? are missing from this topic list: the first is “mentorship and sponsorship,” and the second is “being glue.” Both concepts are essential to the success of Staff-plus engineers, but ultimately, I think the canonical pieces on these topics already exist, and you’re better served by reading those than my watery rehash. For mentorship and sponsorship, spend some time with Lara Hogan’s What Does Sponsorship Look Like?, and for being glue, spend time with Tanya Reilly’s piece that bore the phrase, Being Glue.
-
-As you deliberately practice in each of these areas, you’ll slowly progress from a newly minted Staff engineer to a trusted organizational leader. That said, these won’t cover everything you do. At times you’ll find your role surprisingly similar to that of an engineering director, and at other times strangely familiar to previous work in your career.
-
-That vast remit is part of what makes describing these roles challenging. If there’s a particular topic you’re focused on that’s missing, check out the Additional resources for learning appendix.
+这一巨大的职责范围是描述这些角色具有挑战性的部分原因。如果有你所关注的特定主题被遗漏了，请查看学习附录的附加资源。
 
