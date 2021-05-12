@@ -8,7 +8,7 @@
   * [头衔有关系吗？](gai-shu/tou-xian-you-guan-xi-ma.md)
 * [Staff工程师操作手册](operating-at-staff/README.md)
   * [在真正重要的事情上努力](operating-at-staff/work-on-what-matters.md)
-  * [Writing engineering strategy](operating-at-staff/writing-engineering-strategy.md)
+  * [写工程策略](operating-at-staff/writing-engineering-strategy.md)
   * [Managing technical quality](operating-at-staff/managing-technical-quality.md)
   * [Stay aligned with authority](operating-at-staff/stay-aligned-with-authority.md)
   * [To lead, you have to follow](operating-at-staff/to-lead-you-have-to-follow.md)
