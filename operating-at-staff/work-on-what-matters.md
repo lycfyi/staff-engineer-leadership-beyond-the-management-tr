@@ -84,14 +84,6 @@
 
 我们只能从完成项目中获得价值，而让一个项目越过终点线就是它从风险变成影响力的神奇时刻。把时间花在收尾工作上总是值得的。
 
-What only you can
-
-The final category of work that matters is the sort that you’re uniquely capable of accomplishing. Sure there’s work that you’re faster at or better at than some other folks, but much more important is the sort of work that simply won’t happen if you don’t do it.
-
-This work is an intersection of what you’re exceptionally good at and what you genuinely care about. It might be writing your company’s technology strategy that folks will actually follow, it might be convincing a great candidate to join, it might be changing your CEO’s mind on how you pay down tech debt, it might be crafting a discerning API.
-
-Whatever it is, things that simply won’t happen if you don’t do them are your biggest opportunity to work on something that matters, and it’s a category that will get both narrower and deeper the further you get into your career.
-
 ## 只有你能做到的事
 
 最后一类重要的工作是只有你才有能力完成的那种工作。当然，有些工作你比其他人做得更快或更好，但更重要的是，有些工作如果你不做就不会发生。
