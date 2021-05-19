@@ -72,14 +72,6 @@ At some point, you’re likely to find that your organization is creating qualit
 
 ## Best practices
 
-I once worked at a company that didn’t have a team planning process. Over time the head of engineering was increasingly frustrated with the inability to project target dates and mandated that we use Scrum. After the mandate, a manager wrote the Scrum process on a wiki. There was an announcement that we were using Scrum. Managers told their teams to use Scrum. Mission accomplished!
-
-Of course, no one started to use Scrum. Everyone kept doing what they’d done before. It’s awkward to acknowledge mistakes, so the head of engineering declared adoption a major win, and no one had the heart to say differently.
-
-This sad tale mirrors how many companies try to roll out best practices, and it’s one of the reasons why best practices have such a bad reputation. In theory, organizations would benefit from adopting best practices before fixing quality hot spots, but I recommend practices after hot spotting. Adopting best practices requires a level of organizational and leadership maturity that takes some time to develop.
-
-When you’re rolling out a new practice, remember that a good process is evolved rather than mandated. Study how other companies adopt similar practices, document your intended approach, experiment with the practice with a few engaged teams, sand down the rough edges, improve the documentation based on the challenges, and only then roll it out further. A rushed process is a failed process.
-
 Equally important is the idea of limiting concurrent process rollouts. If you try to get teams to adopt multiple new practices simultaneously, you’re fighting for their attention with yourself. It also makes it harder to attribute impact later if you’re considering reverting or modifying one of the new practices. It’s a bit draconian, but I’ve come to believe that you ought to limit yourself to a single best practice rollout at any given time. Channel all your energy towards making one practice a success rather than splitting resources across a handful.
 
 Adopting a single new practice at a time also forces you to think carefully about which to prioritize. Selecting your next process sounds easy, but it’s often unclear which best practices are genuinely best practice and which are just familiar or famous. Genuine best practice has to be supported by research, and the best source of research on this topic is Accelerate.
@@ -90,21 +82,19 @@ The transition from fixing hot spots to adopting best practices comes when you�
 
 最佳实践
 
-我曾经在一家没有团队计划流程的公司工作过。随着时间的推移，工程主管对无法规划目标日期感到越来越沮丧，并要求我们使用Scrum。授权之后，一名经理在wiki上写了Scrum流程。有个公告说我们正在使用Scrum。经理们告诉他们的团队使用Scrum。任务完成!
+我曾经在一家没有团队计划的公司工作过。随着时间的推移，工程主管对无法规划目标日期感到越来越沮丧，并要求我们使用[Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)。授权之后，一名经理在wiki上写了Scrum流程。有个公告说我们正在使用Scrum。经理们告诉他们的团队使用Scrum。任务完成! —— 当然，并没有人开始使用Scrum。每个人都在做他们以前做过的事。承认错误是很尴尬的，所以工程主管宣布采用是一个重大胜利，没有人有勇气说不同的话。
 
-当然，没有人开始使用Scrum。每个人都在做他们以前做过的事。承认错误是很尴尬的，所以工程主管宣布采用是一个重大胜利，没有人有勇气说不同的话。
+这个悲伤的故事反映了有多少公司试图推出最佳实践，这也是为什么最佳实践有如此坏的名声的原因之一。理论上，组织可以在修复热点之前采用最佳实践，但我建议在发现热点之后进行实践。采用最佳实践需要一定程度的组织和领导成熟度，这需要一些时间来成长。
 
-这个悲伤的故事反映了有多少公司试图推出最佳实践，这也是为什么最佳实践有如此坏的名声的原因之一。理论上，组织可以在修复质量热点之前采用最佳实践，但我建议在发现热点之后进行实践。采用最佳实践需要一定程度的组织和领导成熟度，这需要一些时间来开发。
+当您推出一个新的实践时，请记住，[一个好的过程是渐进的](https://lethain.com/good-process-is-evolved/)，而不是强制的。研究其他公司如何采用类似的做法，记录你想要的方法，在一些参与的团队中进行实践试验，磨去粗糙的边缘，根据挑战改进文档，然后进一步推广。仓促的进程往往是失败的进程。
 
-当您推出一个新的实践时，请记住，一个好的过程是演进的，而不是强制的。研究其他公司如何采用类似的做法，记录你想要的方法，在一些参与的团队中进行实践试验，磨去粗糙的边缘，根据挑战改进文档，然后进一步推广。仓促的进程是失败的进程。
+同样重要的是限制同时进行的流程的数量。如果你试图让团队同时采用多个新的实践，你就是在和自己争夺他们的注意力。如果您正在考虑恢复或修改某个新实践，那么它也会使您更难在以后确定影响。这有点苛刻，但我已经开始相信，您应该限制自己在任何给定时间的一个最佳实践推出。把你所有的精力都集中在一次成功的实践上，而不是把资源分散在几个实践上。
 
-同样重要的是限制并发进程的推出。如果你试图让团队同时采用多个新的实践，你就是在和自己争夺他们的注意力。如果您正在考虑恢复或修改某个新实践，那么它也会使您更难在以后确定影响。这有点苛刻，但我已经开始相信，您应该限制自己在任何给定时间的一个最佳实践推出。把你所有的精力都集中在一次成功的练习上，而不是把资源分散在几次练习上。
+每次只采用一种新的实践还迫使您仔细考虑优先考虑哪一种。选择您的下一个流程听起来很容易，但通常不清楚哪些最佳实践是真正的最佳实践，哪些只是熟悉或有名的。真正的最佳实践必须得到研究的支持，关于这一主题的最佳研究来源是[Accelerate](https://www.amazon.com/dp/B07B9F83WM/)。
 
-每次采用一种新的实践还迫使您仔细考虑优先考虑哪一种。选择您的下一个流程听起来很容易，但通常不清楚哪些最佳实践是真正的最佳实践，哪些只是熟悉或著名的。真正的最佳实践必须得到研究的支持，关于这一主题的最佳研究来源是Accelerate。
+虽然Accelerate的所有建议都是数据驱动的，而且都非常好，但我发现早期采用的一些最有帮助的建议是版本控制、基于主干代码开发、CI/CD和产品的监控\(包括开发人员对他们所编写的系统值班on-call\)，以及在小的、原子性的更改中工作。还有许多其他的实践是我想提倡的\(比如[更好的内部文档](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)\)，但我不像以前那样相信自己的感觉。
 
-虽然Accelerate的所有建议都是数据驱动的，而且都非常好，但我发现早期采用的一些最有帮助的建议是版本控制、基于干线的开发、CI/CD和生产可观察性\(包括开发人员对他们所编写的系统的随叫随到\)，以及在小的、原子性的更改中工作。还有许多其他的实践是我想提倡的\(他们没有在职业生涯中提倡更好的内部文档\)，但我不像以前那样相信自己的直觉。
-
-从修复热点到采用最佳实践的转变发生在您被太多需要冷却的热点压垮的时候。下一个过渡，从最佳实践到杠杆点，当你发现自己想采用一个新的最佳实践之前，你正在进行的最佳实践是有效的。而不是增加您的最佳实践采用过程中的限制，继续下一个工具。
+从修复热点到采用最佳实践的过渡往往发生在您需要处理热点太多，顾不过来的时候。下一个过渡，从"最佳实践"到"杠杆点"，发生在当你想采用一个新的最佳实践时，你另外还有最佳实践正在进行。[不要试图同时采用很多最佳实践](https://lethain.com/limiting-wip/)（即不要有太多同时进行的流程），但可以尝试下一个工具。
 
 ## Leverage points
 
