@@ -54,16 +54,6 @@
 
 在某个阶段，您可能会发现您的组织产生质量问题的速度要快于您修复热点的速度，这时就到了采用最佳实践的时候了。
 
-## Best practices
-
-Equally important is the idea of limiting concurrent process rollouts. If you try to get teams to adopt multiple new practices simultaneously, you’re fighting for their attention with yourself. It also makes it harder to attribute impact later if you’re considering reverting or modifying one of the new practices. It’s a bit draconian, but I’ve come to believe that you ought to limit yourself to a single best practice rollout at any given time. Channel all your energy towards making one practice a success rather than splitting resources across a handful.
-
-Adopting a single new practice at a time also forces you to think carefully about which to prioritize. Selecting your next process sounds easy, but it’s often unclear which best practices are genuinely best practice and which are just familiar or famous. Genuine best practice has to be supported by research, and the best source of research on this topic is Accelerate.
-
-While all of Accelerate’s recommendations are data-driven and quite good, the handful that I’ve found most helpful to adopt early are version control, trunk-based development, CI/CD, and production observability \(including developers on-call for the systems they write\), and working in small, atomic changes. There are many other practices I’d love to advocate for \(who hasn’t spent a career era advocating for better internal documentation\), but I don’t trust my intuition like I once did.
-
-The transition from fixing hot spots to adopting best practices comes when you’re overwhelmed by too many hot spots to cool. The next transition, from best practices to leverage points, comes when you find yourself wanting to adopt a new best practice before your in-progress best practice is working. Rather than increasing your best practice adoption-in-progress limit, move on to the next tool.
-
 ## 最佳实践
 
 我曾经在一家没有团队计划的公司工作过。随着时间的推移，工程主管对无法规划目标日期感到越来越沮丧，并要求我们使用[Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)。授权之后，一名经理在wiki上写了Scrum流程。有个公告说我们正在使用Scrum。经理们告诉他们的团队使用Scrum。任务完成! —— 结果是，当然，并没有人开始使用Scrum。每个人都在做他们以前做过的事。承认错误是很尴尬的，最终工程主管宣布采用Scrum是一个重大胜利，没有人有勇气说不同的话。
@@ -74,51 +64,35 @@ The transition from fixing hot spots to adopting best practices comes when you�
 
 同样重要的是限制同时进行的流程的数量。如果你试图让团队同时采用多个新的实践，你就是在和自己争夺他们的注意力。如果您正在考虑恢复或修改某个新实践，那么它也会使您更难在以后确定影响。这有点苛刻，但我已经开始相信，您应该限制自己在任何给定时间的一个最佳实践推出。把你所有的精力都集中在一次成功的实践上，而不是把资源分散在几个实践上。
 
-每次只采用一种新的实践还迫使您仔细考虑优先考虑哪一种。选择您的下一个流程听起来很容易，但通常不清楚哪些最佳实践是真正的最佳实践，哪些只是熟悉或有名的。真正的最佳实践必须得到研究的支持，关于这一主题的最佳研究来源是[Accelerate](https://www.amazon.com/dp/B07B9F83WM/)。
+每次只采用一种新的实践还迫使您仔细考虑优先考虑哪一种。选出下一个流程听起来很容易，但通常不清楚哪些最佳实践是真正的最佳实践，哪些只是比较被熟悉或名气大。真正的最佳实践必须得到研究的支持，关于这一主题的最佳研究来源是[Accelerate](https://www.amazon.com/dp/B07B9F83WM/)。
 
 虽然Accelerate的所有建议都是数据驱动的，而且都非常好，但我发现早期采用的一些最有帮助的建议是版本控制、基于主干代码开发、CI/CD和产品的监控\(包括开发人员对他们所编写的系统值班on-call\)，以及在小的、原子性的更改中工作。还有许多其他的实践是我想提倡的\(比如[更好的内部文档](https://increment.com/documentation/why-investing-in-internal-docs-is-worth-it/)\)，但我不像以前那样相信自己的感觉。
 
-从修复热点到采用最佳实践的过渡往往发生在您需要处理热点太多，顾不过来的时候。下一个过渡，从"最佳实践"到"杠杆点"，发生在当你想采用一个新的最佳实践时，你另外还有最佳实践正在进行。[不要试图同时采用很多最佳实践](https://lethain.com/limiting-wip/)（即不要有太多同时进行的流程），但可以尝试下一个工具。
+从修复热点到采用最佳实践的过渡往往发生在您需要处理热点太多，顾不过来的时候。下一个过渡，从"最佳实践"到"杠杆支点"，发生在当你想采用一个新的最佳实践时，你另外还有最佳实践正在进行。[不要试图同时采用很多最佳实践](https://lethain.com/limiting-wip/)（即不要有太多同时进行的流程），但可以尝试下文提到的杠杆支点这个工具。
 
-## Leverage points
+## 杠杆支点
 
-In the Hotspotting section, we talked about using the performance engineer’s mindset to identify the right problems to fix. Optimization works well for the issues you already have, but it’s intentionally inapplicable to the future: the worst sin of performance engineering is applying effort to unproven problems.
+在Hotspotting一节中，我们讨论了使用性能工程师的思维来识别需要修复的正确问题。优化对于已经存在的问题很有效，但却不适用于还不存在的问题：性能工程师最大的罪恶就是将精力用于不能被证实的性能问题。
 
-However, as you look at how software changes over time, there are a small handful of places where extra investment preserves quality over time, both by preventing gross quality failures and reducing the cost of future quality investments.
+然而，当您查看软件是如何随时间变化的时，一小部分的针对质量的额外投资可以防止未来严重的质量问题和减少未来所需的对质量的投资。
 
-I call those quality leverage points, and the three most impactful points are interfaces, stateful systems, and data models.
+我称这些（一小部分的投资）为杠杆支点，最具影响力的三个点是：接口、有状态系统和数据模型。
 
-Interfaces are contracts between systems. Effective interfaces decouple clients from the encapsulated implementation. Durable interfaces expose all the underlying essential complexity and none of the underlying accidental complexity. Delightful interfaces are Eagerly discerning, discerningly eager.
+_**接口**_是系统之间的契约。有效的接口将client与封装起来的具体实现解耦。持久接口只把最重要最根本的部分展示出来，其他非必要的复杂度则被隐藏。赏心悦目的接口是"[既热情也挑剔](https://increment.com/apis/api-design-for-eager-discering-developers/)"的。
 
-State is the hardest part of any system to change, and that resistance to change makes stateful systems another critical leverage point. State gets complex faster than other systems and has an inertia that makes it relatively expensive to improve later. As you incorporate business obligations around security, privacy, and compliance, changing your stateful systems becomes even more challenging.
+_**状态**_是任何系统中最难更改的部分，这种阻力使有状态系统成为另一个关键的杠杆点。与其他系统相比，状态系统会很快变得非常复杂，并且有一种惯性，使得以后改进它相对昂贵。随着您将有关安全性、隐私和遵从性的业务义务合并在一起，更改有状态系统就变得更加具有挑战性。
 
-Data models are the intersection of the interfaces and state, constraining your stateful system’s capabilities down to what your application considers legal. A good data model is rigid: it only exposes what it genuinely supports and prevents invalid states’ expression. A good data model is tolerant of evolution over time. Effective data models are not even slightly clever.
-
-As you identify these leverage points in your work, take the extra time to approach them deliberately. If it’s an interface, integrate half a dozen clients against the mocked implementation. If it’s a data model, represent half a dozen real scenarios. If it’s stateful, exercise the failure modes, check the consistency behaviors, and establish performance benchmarks resembling your production scenario.
+_**数据模型**_是接口和状态的交集，将有状态系统的功能限制在应用程序认为合法的范围内。好的数据模型是严格的:它只公开它真正支持的内容，并防止无效状态的表达式。一个好的数据模型能够随着时间的推移而演化。有效的数据模型一点也不需要特别的巧思。
 
 Take everything you’ve learned, and pull it into a technical specification document that you socialize across your team. Gather industry feedback from peers. Even after you begin implementation, listen to reality’s voice and remain open to changes.
 
 One of the hidden powers of investing in leverage points is that you don’t need total organizational alignment to do it. To write a technical vision or roll out a best practice, you need that sort of buy-in, which is why I recommend starting with leverage points. However, if you’ve exhausted the accessible impact from leverage points, it may be time to move on to driving broader organizational alignment.
 
-利用分
-
-在Hotspotting一节中，我们讨论了使用性能工程师的思维来识别需要修复的正确问题。优化对于已经存在的问题很有效，但却有意不适用于未来:性能工程最大的罪恶就是将精力用于未被证实的问题。
-
-然而，当您查看软件是如何随时间变化的时，有一小部分地方的额外投资可以通过防止严重的质量失败和减少未来质量投资的成本来保持质量。
-
-我称这些为质量杠杆点，最具影响力的三个点是接口、有状态系统和数据模型。
-
-接口是系统之间的契约。有效的接口将客户机与封装的实现解耦。持久接口暴露了所有潜在的本质复杂性，而没有暴露任何潜在的偶然复杂性。令人愉悦的界面是敏锐的，敏锐的。
-
-状态是任何系统中最难更改的部分，对更改的抵制使有状态系统成为另一个关键的杠杆点。与其他系统相比，州系统变得更加复杂，并且有一种惯性，使得以后改进它相对昂贵。随着您将有关安全性、隐私和遵从性的业务义务合并在一起，更改有状态系统就变得更加具有挑战性。
-
-数据模型是接口和状态的交集，将有状态系统的功能限制在应用程序认为合法的范围内。好的数据模型是严格的:它只公开它真正支持的内容，并防止无效状态的表达式。一个好的数据模型能够容忍随着时间的推移而发展。有效的数据模型一点也不聪明。
-
-当你在你的工作中确定这些杠杆点时，花额外的时间有意识地去接近它们。如果它是一个接口，那么将6个客户机集成到mock实现中。如果它是一个数据模型，则代表六个真实的场景。如果它是有状态的，则测试故障模式，检查一致性行为，并建立类似于生产场景的性能基准。
+当你在你的工作中确定这些杠杆点时，花额外的时间有意识地去接近它们。如果它是一个接口，那么先把若干clients集成到mock的实现中试一下。如果它是一个数据模型，则用它描述若干个真实的场景。如果它是有状态的，则测试故障模式，检查行为一致性，并建立类似于生产场景的性能基准。
 
 将你所学到的所有内容整合到技术规格文件中，以便在整个团队中进行交流。从同行那里收集行业反馈。即使在你开始实施之后，也要倾听现实的声音，对改变保持开放的心态。
 
-在杠杆点上投资的一个隐藏的力量是你不需要完全的组织一致来做它。为了编写技术远景或推出最佳实践，您需要那种买进，这就是为什么我建议从杠杆点开始。然而，如果您已经用尽了杠杆点的可访问性影响，那么可能是时候转向推动更广泛的组织一致性了。
+在杠杆点上投资的一个潜在的效用是你不需要完备的组织来做它。为了编写技术远景或推出最佳实践，您只需要那种口头上表示想要使用的意愿就行，这就是为什么我建议从杠杆点开始。然而，如果您已经用尽了杠杆点的所有可行的影响力，那么可能是时候转向推动更广泛的组织的一致性了。
 
 ## Technical vectors
 
