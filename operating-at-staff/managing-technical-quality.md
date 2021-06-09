@@ -38,37 +38,21 @@
 
 将这些质量管理阶段呈现为一个向上攀登的线性阶梯很方便，但真正的现实世界中很少这样。更有可能的情况时修复一个热点，推出一个最佳实践，开始进行一个架构review，再舍弃掉那个架构的review，然后又回到热点。如果流程还不成熟就用起来，会带来更多的摩擦而不是价值，而且很快这些不成熟流程就会表现出低效率。如果当前有些流程不管用，先别急着想庆祝取消这个流程，先去试着想办法能不能修好它。
 
-## Hot spots
+## 热点
 
-When confronted by a quality problem, the first instinct is often to identify a process failure that necessarily requires a process solution. If a deployment causes an outage, it’s because the author didn’t correctly follow the code test process, so now we’re going to require tests with every commit – that’ll teach those lazy developers!
+当遇到质量问题时，第一反应通常是找到当前是失败的、需要被妥善解决的流程步骤。如果是因为一个deploy导致宕机，那肯定是因为开发者没有正确地遵循代码测试过程，所以现在我们将要求每次提交都进行测试——这将给那些懒惰的开发人员以教训!
 
-There’s the old joke about Sarbannes-Oxley: it doesn’t reduce risk; it just makes it clear who to blame when things go wrong. Unfortunately, that joke applies without humor to how many organizations roll out processes. Accountability has its role, but it’s much more important to understand the problem at hand and try to fix it directly than to create process-driven accountability.
+关于[《萨班斯-奥克斯利法（SOX）》](https://zh.wikipedia.org/wiki/%E8%90%A8%E7%8F%AD%E6%96%AF-%E5%A5%A5%E5%85%8B%E6%96%AF%E5%88%A9%E6%B3%95%E6%A1%88)，有一个老笑话:它不会降低风险;它只是明确了当事情出错时该怪谁。只可惜这个笑话里没有提到组织流程。问责制有它的作用，但是理解手头的问题并尝试直接修复它比创建过程驱动的问责制重要得多。
 
-Process rollout requires humans to change how they work, which you shouldn’t undertake lightly. Rather than reaching for process improvement, start by donning the performance engineer’s mindset. Measure the problem at hand, identify where the bulk of the issue occurs, and focus on precisely that area.
+推出一个流程需要人们改变他们的工作方式，这一点您不应该轻易就应诺下来。与其追求过程改进，不如从代入性能工程师的心态开始。测量手头的问题，确定问题的大部分发生在哪里，并精确地关注那个区域。
 
-The previous example of an untested deploy might benefit from giving direct feedback to the deploying engineer about changing their testing habits. Alternatively, maybe you’re better served by acknowledging that your software design is error-prone and adopting the “define errors out of existence” approach described in A Philosophy of Software Design.
+直接反馈给部署工程师告诉他们应该改变测试习惯可能有助于避免前文提到的未测试就部署的例子。但是更好的处理方式是，承认这个软件设计是容易出错的，并采用[《软件设计哲学》](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)中描述的“定义存在的错误（define errors out of existence）”方法。
 
-If you have a development velocity problem, it might be optimizing test runtimes, moving your Docker compile step onto a RAM disk, or using the techniques described in Software Design X-Rays to find the specific files to improve.
+如果您遇到开发速度问题，它可能是优化测试运行时，将Docker编译步骤移到RAM磁盘上，或者使用 [Software Design X-Rays](https://www.amazon.com/Software-Design-X-Rays-Technical-Behavioral-ebook-dp-B07BVRLZ87/dp/B07BVRLZ87/) 中描述的技术来找到需要改进的特定文件。
 
-Systems thinking is the most transformative thinking technique I’ve encountered in my career. Still, at times it can be a siren beckoning you towards fixing a current system you may be better discarding. Sure, you can roll out a new training program to teach your team how to write better tests, but alternatively, maybe you can just delete the one test file where 98% of test failures happen. That’s the unreasonable effectiveness of prioritizing hot spots and why it should be the first technique you use to improve technical quality.
+[系统思维](https://lethain.com/systems-thinking/)是我在职业生涯中遇到的最具变革性的思维方法。尽管如此，有时它可能让你忍不住去修复现有系统，而你其实更应该地克制住这种冲动。当然，您可以推出一个新的培训计划来教您的团队如何编写更好的测试，但是，您也可以删除掉那个一个98%的测试失败发生所在的测试文件。这就是为什么优先处理hot spots的效率高得惊人，以及为什么它（优先处理hot spots）应该是你用来提高技术质量的第一项手段。
 
-At some point, you’re likely to find that your organization is creating quality problems faster than you’re able to fix hot spots, and that’s when it’s time to move on to adopting best practices.
-
-热点
-
-当遇到质量问题时，第一个本能通常是识别一定需要过程解决方案的过程失败。如果一个部署导致中断，那是因为作者没有正确地遵循代码测试过程，所以现在我们将要求每次提交都进行测试——这将给那些懒惰的开发人员以教训!
-
-关于《萨班斯-奥克斯利法》，有一个老笑话:它不会降低风险;它只是明确了当事情出错时该怪谁。不幸的是，这个笑话没有幽默地适用于多少组织推出流程。问责制有它的作用，但是理解手头的问题并尝试直接修复它比创建过程驱动的问责制重要得多。
-
-流程推出需要人类改变它们的工作方式，这一点您不应该轻易承担。与其追求过程改进，不如从穿上性能工程师的心态开始。测量手头的问题，确定问题的大部分发生在哪里，并精确地关注那个区域。
-
-前面的未测试部署示例可能受益于向部署工程师提供关于改变他们的测试习惯的直接反馈。或者，您最好承认您的软件设计是容易出错的，并采用《软件设计哲学》中描述的“定义存在的错误”方法。
-
-如果您遇到开发速度问题，它可能是优化测试运行时，将Docker编译步骤移到RAM磁盘上，或者使用Software Design x射线中描述的技术来找到需要改进的特定文件。
-
-系统思维是我在职业生涯中遇到的最具变革性的思维方法。尽管如此，有时它可能是一个诱惑你去修复现有系统的警报器，而你可能更好地抛弃它。当然，您可以推出一个新的培训计划来教您的团队如何编写更好的测试，但是，或者，您可以只删除一个测试文件，其中98%的测试失败发生。这就是对热点进行优先排序的不合理效率，以及为什么它应该是你用来提高技术质量的第一项技术。
-
-在某种程度上，您可能会发现您的组织创建质量问题的速度要快于您修复热点的速度，这时就到了采用最佳实践的时候了。
+在某个阶段，您可能会发现您的组织产生质量问题的速度要快于您修复热点的速度，这时就到了采用最佳实践的时候了。
 
 ## Best practices
 
@@ -80,13 +64,13 @@ While all of Accelerate’s recommendations are data-driven and quite good, the 
 
 The transition from fixing hot spots to adopting best practices comes when you’re overwhelmed by too many hot spots to cool. The next transition, from best practices to leverage points, comes when you find yourself wanting to adopt a new best practice before your in-progress best practice is working. Rather than increasing your best practice adoption-in-progress limit, move on to the next tool.
 
-最佳实践
+## 最佳实践
 
-我曾经在一家没有团队计划的公司工作过。随着时间的推移，工程主管对无法规划目标日期感到越来越沮丧，并要求我们使用[Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)。授权之后，一名经理在wiki上写了Scrum流程。有个公告说我们正在使用Scrum。经理们告诉他们的团队使用Scrum。任务完成! —— 当然，并没有人开始使用Scrum。每个人都在做他们以前做过的事。承认错误是很尴尬的，所以工程主管宣布采用是一个重大胜利，没有人有勇气说不同的话。
+我曾经在一家没有团队计划的公司工作过。随着时间的推移，工程主管对无法规划目标日期感到越来越沮丧，并要求我们使用[Scrum](https://en.wikipedia.org/wiki/Scrum_%28software_development%29)。授权之后，一名经理在wiki上写了Scrum流程。有个公告说我们正在使用Scrum。经理们告诉他们的团队使用Scrum。任务完成! —— 结果是，当然，并没有人开始使用Scrum。每个人都在做他们以前做过的事。承认错误是很尴尬的，最终工程主管宣布采用Scrum是一个重大胜利，没有人有勇气说不同的话。
 
 这个悲伤的故事反映了有多少公司试图推出最佳实践，这也是为什么最佳实践有如此坏的名声的原因之一。理论上，组织可以在修复热点之前采用最佳实践，但我建议在发现热点之后进行实践。采用最佳实践需要一定程度的组织和领导成熟度，这需要一些时间来成长。
 
-当您推出一个新的实践时，请记住，[一个好的过程是渐进的](https://lethain.com/good-process-is-evolved/)，而不是强制的。研究其他公司如何采用类似的做法，记录你想要的方法，在一些参与的团队中进行实践试验，磨去粗糙的边缘，根据挑战改进文档，然后进一步推广。仓促的进程往往是失败的进程。
+当您推出一个新的实践时，请记住，[一个好的流程是渐进的](https://lethain.com/good-process-is-evolved/)，而不是强制的。研究其他公司如何采用类似的做法，记录你想要的方法，在一些参与的团队中进行实践试验，磨去粗糙的边缘，根据挑战改进文档，然后进一步推广。仓促的流程往往是失败的流程。
 
 同样重要的是限制同时进行的流程的数量。如果你试图让团队同时采用多个新的实践，你就是在和自己争夺他们的注意力。如果您正在考虑恢复或修改某个新实践，那么它也会使您更难在以后确定影响。这有点苛刻，但我已经开始相信，您应该限制自己在任何给定时间的一个最佳实践推出。把你所有的精力都集中在一次成功的实践上，而不是把资源分散在几个实践上。
 
