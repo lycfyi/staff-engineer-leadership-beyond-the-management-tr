@@ -38,7 +38,7 @@
 
 将这些质量管理阶段呈现为一个向上攀登的线性阶梯很方便，但真正的现实世界中很少这样。更有可能的情况时修复一个热点，推出一个最佳实践，开始进行一个架构review，再舍弃掉那个架构的review，然后又回到热点。如果流程还不成熟就用起来，会带来更多的摩擦而不是价值，而且很快这些不成熟流程就会表现出低效率。如果当前有些流程不管用，先别急着想庆祝取消这个流程，先去试着想办法能不能修好它。
 
-## 热点
+## 热点修复
 
 当遇到质量问题时，第一反应通常是找到当前是失败的、需要被妥善解决的流程步骤。如果是因为一个deploy导致宕机，那肯定是因为开发者没有正确地遵循代码测试过程，所以现在我们将要求每次提交都进行测试——这将给那些懒惰的开发人员以教训!
 
@@ -84,58 +84,30 @@ _**状态**_是任何系统中最难更改的部分，这种阻力使有状态�
 
 _**数据模型**_是接口和状态的交集，将有状态系统的功能限制在应用程序认为合法的范围内。好的数据模型是严格的:它只公开它真正支持的内容，并防止无效状态的表达式。一个好的数据模型能够随着时间的推移而演化。有效的数据模型一点也不需要特别的巧思。
 
-Take everything you’ve learned, and pull it into a technical specification document that you socialize across your team. Gather industry feedback from peers. Even after you begin implementation, listen to reality’s voice and remain open to changes.
-
-One of the hidden powers of investing in leverage points is that you don’t need total organizational alignment to do it. To write a technical vision or roll out a best practice, you need that sort of buy-in, which is why I recommend starting with leverage points. However, if you’ve exhausted the accessible impact from leverage points, it may be time to move on to driving broader organizational alignment.
-
-当你在你的工作中确定这些杠杆点时，花额外的时间有意识地去接近它们。如果它是一个接口，那么先把若干clients集成到mock的实现中试一下。如果它是一个数据模型，则用它描述若干个真实的场景。如果它是有状态的，则测试故障模式，检查行为一致性，并建立类似于生产场景的性能基准。
+当你在你的工作中确定这些杠杆支点时，花额外的时间有意识地去接近它们。如果它是一个接口，那么先把若干clients集成到mock的实现中试一下。如果它是一个数据模型，则用它描述若干个真实的场景。如果它是有状态的，则测试故障模式，检查行为一致性，并建立类似于生产场景的性能基准。
 
 将你所学到的所有内容整合到技术规格文件中，以便在整个团队中进行交流。从同行那里收集行业反馈。即使在你开始实施之后，也要倾听现实的声音，对改变保持开放的心态。
 
 在杠杆点上投资的一个潜在的效用是你不需要完备的组织来做它。为了编写技术远景或推出最佳实践，您只需要那种口头上表示想要使用的意愿就行，这就是为什么我建议从杠杆点开始。然而，如果您已经用尽了杠杆点的所有可行的影响力，那么可能是时候转向推动更广泛的组织的一致性了。
 
-## Technical vectors
+## 技术向量
 
-Effective organizations marshal the majority of their efforts towards a shared vision. If you plot every technical decision as a vector on a grid, the more those vectors point in the same direction, the more you’ll accomplish over time. Conversely, some of the most impressive engineers I’ve worked with created vectors with an extraordinary magnitude but a misaligned direction. Ultimately those engineers harmed their organizations in their attempts to lead it.
+有效的组织将他们的大部分努力集中在一个共同的愿景上。如果你把每一个技术决策都画成一个向量，那么这些矢量指向同一个方向的越多，随着时间的推移，你完成的就越多。相反，与我共事过的一些最令人印象深刻的工程师创造出的矢量具有非凡的规模，但却偏离了方向。最终，这些工程师在试图领导组织的过程中伤害了他们的组织。
 
-One sure-fire solution to align technical direction is to route all related decisions to the same person with Architect somewhere in their title. This works well but is challenging to scale, and the quality of an architect’s decisions degrade the further they get from doing real work on real code in the real process. On the other extreme, you can allow every team to make independent decisions. But an organization that allows any tool is an organization with uniformly unsupported tooling.
+一个确保技术方向一致的解决方案是将所有相关的决策传递给某个有架构师头衔的人。这可以很好地工作，但是很难扩展，而且架构师的决策质量会随着他们与实际代码的疏远而降低。从另一个极端来说，你可以让每个团队都做出独立的决定。然而，一个公司如果允许使用任何工具，那也就没有任何工具能在这个公司获得普遍的支持。
 
-Your fundamental tools for aligning technical vectors are:
+你align技术向量的基本工具是:
 
-* Give direct feedback. When folks run into misalignment, the first answer is often process change, but instead, start with simply giving direct feedback to the individuals who you believe are misaligned. As much as they’re missing your context, you’re missing theirs, and a quick conversation can often prevent years of unnecessary process.
-* Refine your engineering strategy from tech spec, to strategy, to vision.
-* Encapsulate your approach in your workflows and tooling. Documentation of a clear vision is helpful, but some folks simply won’t study your document. Deliberate tools create workflows that nurture habits far better than training and documentation. For example, provisioning a new service might require going to a website that requires you to add a link to a technical spec for that service. Another approach might be blocking deploys to production if the service doesn’t have an on-call setup established, with someone currently on-call, and that individual must also have their push notifications enabled.
-* Train new team members during their onboarding. Changing folks’ habits after they’ve formed is quite challenging, which is frustrating if you’re attempting to get folks to adopt new practices. However, if you get folks pointed in the right direction when they join, then that habit-momentum will work in favor of remaining aligned.
-* Use Conway’s Law. Conway’s Law argues that organizations build software that reflects their structure. If your organization is poorly structured, this will lead to tightly coupled or tangled software. However, it’s also a force for quality if your organization’s design is an effective one.
-* Curate technology change using architecture reviews, investment strategies, and a structured process for adopting new tools. Most misalignment comes from missing context, and these are the organizational leverage points to inject context into decision-making. Many organizations start here, but it’s the last box of tools that I recommend opening. How can you provide consistent architecture reviews without an articulated vision? Why tell folks your strategy after they’ve designed something rather than in their onboarding process?
+* **提供直接的反馈**。当人们遇到misalignment时，第一个反应通常是改变自己的工作流程。但相反，你应该首先单刀直入地直接给那个你认为和你有misalignment的人沟通。就像他们错过了你的context一样，你也可能错过了他们的context，一个简短的对话通常可以避免数年不必要的工作流程。
+* 从[技术规格，到战略，再到愿景](https://yucliu.gitbook.io/staff-engineer/operating-at-staff/writing-engineering-strategy)，**完善你的工程战略。**
+* **将您的方法封装到您的工作流程和工具中**。有一个清晰的愿景的文档是有帮助的，但是有些人就是不会研究你的文档。经过深思熟虑的工具能创造出培养习惯的工作流，这远比培训和文档要好得多。例如，供应一项新服务可能需要访问一个网站，该网站要求您添加到该服务的技术规范的链接。另一种方法可能是，如果某个服务没有做到有设置on-call，目前有人on-call，而这个人也必须已经启用他们的推送通知，那么这个服务就会被阻止部署到生产环境。
+* **在新团队成员入职期间进行培训**。改变人们已经形成的习惯是相当具有挑战性的，如果你试图让人们接受新的习惯，这是令人沮丧的。然而，如果你让人们在加入时指向正确的方向，那么习惯动力将有利于保持一致。
+* **使用Conway法则**。Conway’s Law认为，组织构建反映其结构的软件。如果您的组织结构不好，这将导致紧密耦合或纠结的软件。然而，如果您的组织的设计是有效的，那么它也是提高质量的一种力量。
+* 使用[架构评审](https://lethain.com/scaling-consistency/)、[投资策略](https://lethain.com/magnitudes-of-exploration/)和[采用新工具的结构化流程](https://slack.engineering/how-big-technical-changes-happen-at-slack/)来**管理技术变更**。大多数misalignment来自于缺少context，而这些方法是将context注入决策制定的杠杆支点。许多组织是从这一条开始做（align技术向量）的，但这是我建议最后一个尝试的方法。您如何在没有明确的远景的情况下提供一致的架构评审?为什么要在他们设计好策略后才告诉他们，而不是在他们刚入职的时候?
 
-Regardless of the approaches you use to align your technical vectors, this is work that tends to happen over months and years. There’s no world where you write the vision document, and the org immediately aligns behind its brilliance. Much more likely is that it gathers dust until you invest in building support.
+不管您使用什么方法来调整您的技术向量，这都是需要几个月甚至几年才能完成的工作。不存在这样一个世界，即你写下愿景文件，而整个组织马上就能在其辉煌背后达成一致。更有可能的是，直到你投资建立支持性工作，它才会尘埃落定。
 
-Most companies can combine the above techniques from hot-spot fixing to vector-alignment into a successful approach for managing technical quality, and hopefully, that’s the case for you. However, many find that they’re not enough and that you move towards heavier approaches. In that case, the first step is, as always, measurement.
-
-技术向量
-
-有效的组织将他们的大部分努力集中在一个共同的愿景上。如果你把每一个技术决策都画成一个矢量，那么这些矢量指向同一个方向的越多，随着时间的推移，你完成的就越多。相反，与我共事过的一些最令人印象深刻的工程师创造出的矢量具有非凡的规模，但却偏离了方向。最终，这些工程师在试图领导组织的过程中伤害了他们的组织。
-
-一个确保技术方向一致的解决方案是将所有相关的决策传递给同一个人和架构师。这可以很好地工作，但是很难扩展，而且架构师的决策质量会随着他们在实际流程中对实际代码进行实际工作而降低。从另一个极端来说，你可以让每个团队都做出独立的决定。但是允许使用任何工具的组织是拥有统一的不受支持的工具的组织。
-
-你对齐技术向量的基本工具是:
-
-提供直接的反馈。当人们遇到偏差时，第一个答案通常是过程改变，但相反，从简单地给你认为是偏差的个人直接反馈开始。就像他们错过了你的语境一样，你也错过了他们的语境，一个简短的对话通常可以避免数年不必要的过程。
-
-从技术规格，到战略，再到愿景，完善你的工程战略。
-
-将您的方法封装到您的工作流和工具中。有一个清晰的愿景的文档是有帮助的，但是有些人就是不会研究你的文档。经过深思熟虑的工具能创造出培养习惯的工作流，这远比培训和文档要好得多。例如，供应一项新服务可能需要访问一个网站，该网站要求您添加到该服务的技术规范的链接。另一种方法可能是，如果服务没有建立随时待命的设置，目前有人随时待命，而这个人也必须启用他们的推送通知，那么就会阻止部署到生产环境。
-
-在新团队成员入职期间进行培训。改变人们已经形成的习惯是相当具有挑战性的，如果你试图让人们接受新的习惯，这是令人沮丧的。然而，如果你让人们在加入时指向正确的方向，那么习惯动力将有利于保持一致。
-
-使用Conway法则。Conway’s Law认为，组织构建反映其结构的软件。如果您的组织结构不好，这将导致紧密耦合或纠结的软件。然而，如果您的组织的设计是有效的，那么它也是提高质量的一种力量。
-
-使用架构评审、投资策略和采用新工具的结构化过程来管理技术变更。大多数不一致来自于缺少上下文，而这些是将上下文注入决策制定的组织杠杆点。许多组织从这里开始，但这是我建议打开的最后一盒工具。您如何在没有明确的远景的情况下提供一致的架构评审?为什么要在他们设计好策略后才告诉他们，而不是在他们刚入职的时候?
-
-不管您使用什么方法来调整您的技术矢量，这都是需要几个月甚至几年才能完成的工作。不存在这样一个世界，即你写下愿景文件，而整个组织马上就能在其辉煌背后达成一致。更有可能的是，直到你投资建立支持，它才会尘埃落定。
-
-大多数公司都可以将上述技术从热点修复到向量对齐结合成一种成功的技术质量管理方法，希望您就是这种情况。然而，许多人发现这些方法还不够，需要使用更重的方法。在这种情况下，第一步总是测量。
+大多数公司都可以将上述技术从热点修复到技术向量对齐结合成一种成功的技术质量管理方法，希望您就是这种情况。然而，许多人发现这些方法还不够，需要使用更重的方法。在这种情况下，第一步总是测量。
 
 ## Measure technical quality
 
