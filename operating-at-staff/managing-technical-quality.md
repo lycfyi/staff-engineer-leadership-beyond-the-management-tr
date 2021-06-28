@@ -109,89 +109,53 @@ _**数据模型**_是接口和状态的交集，将有状态系统的功能限�
 
 大多数公司都可以将上述技术从热点修复到技术向量对齐结合成一种成功的技术质量管理方法，希望您就是这种情况。然而，许多人发现这些方法还不够，需要使用更重的方法。在这种情况下，第一步总是测量。
 
-## Measure technical quality
+## 测量技术质量
 
-The desire to measure in software engineering has generally outpaced our state of measurement. Accelerate identifies metrics to measure velocity, which are powerful for locating process and tooling problems, but these metrics start after the code’s been merged. How do you measure your codebase’s quality such that you can identify gaps, propose a plan of action, and evaluate the impact of your efforts to improve?
+在软件工程中我们完成的测量工作的往往满足不了我们对测量的需求。《[Accelerate](https://www.amazon.com/dp/B07B9F83WM/)》建立了几个测量速度的指标，这对于找到工作流程和工具中的问题非常有用，但是这些指标都是在代码被合并之后才开始。您如何度量您的代码库的质量，以便您能够识别gaps，提出一个行动计划，并评估您耗费精力所作出的改进的影响?
 
-There are some process measurements that correlate with effective changes. For example, you could measure the number of files changed in each pull request on the understanding that smaller pull requests are generally higher quality. You could also measure a codebase’s lines of code per file, on the assumption that very large files are generally hard to extend. These could both be quite helpful, and I’d even recommend measuring them, but I think they are at best proxy measurements for code quality.
+确实有一些对工作流程的测量是和有效的改变具有相关性的。例如，您可以测量平均每个pull request中更改的文件数目，因为一般而言越小的pull request质量越高。您还可以测量每个文件的代码行数，因为有一般的假设，那就是行数越多越难扩展。这两种方法都很有帮助，我甚至也会推荐测量这些量，但同时我认为它们充其量只是代码质量的间接度量。
 
-My experience is that it is possible to usefully measure code quality, and it comes down to developing an extremely precise definition of quality. The more detailed you can get your definition of quality, the more useful it becomes to measure a codebase, and the more instructive it becomes to folks hoping to improve the quality of the area they’re working on. This approach is described in some detail in Building Evolutionary Architectures and Reclaim unreasonable software.
+我的经验是，有实际效果地测量代码质量是可能的，关键在于需要一套对质量的极其精确的定义。您对质量的定义越详细，它对度量代码库就越有用，对那些希望提高他们所从事领域的质量的人们就越有指导意义。这种方法在[构建演化体系结构（Building Evolutionary Architectures）](https://www.amazon.com/Building-Evolutionary-Architectures-Support-Constant/dp/1491986360/)和[Reclaim unreasonable software](https://lethain.com/reclaim-unreasonable-software/)一些详细的描述。
 
-Some representative components to consider including in your quality definition:
+下面是一些有代表性的质量定义的组成，您可以参考：
 
-* What percentage of the code is statically typed?
-* How many files have associated tests?
-* What is test coverage within your codebase?
-* How narrow are the public interfaces across modules?
-* What percentage of files use the preferred HTTP library?
-* Do endpoints respond to requests within 500ms after a cold start?
-* How many functions have dangerous read-after-write behavior? Or perform unnecessary reads against the primary database instance?
-* How many endpoints perform all state mutation within a single transaction?
-* How many functions acquire low-granularity locks?
-* How many hot files exist which are changed in more than half of pull requests?
+* 代码中有多少百分比是静态类型的?
+* 有多少文件有关联的测试?
+* 代码库中的测试覆盖率是多少?
+* 跨模块的公共接口有多窄?
+* 使用更好的HTTP库的文件的百分比是多少?
+* 终端是否在冷启动后500ms内响应请求?
+* 有多少函数具有危险的read-after-write?还是对主数据库执行不必要的读取?
+* 在一个transaction中有多少个endpoints改变了所有的状态?
+* 有多少函数获得了低粒度的锁?
+* 在超过一半的pull请求中有多少hot files被更改?
 
-You’re welcome to disagree that some of these properties ought to exist in your codebase’s definition of quality: your definition should be specific to your codebase and your needs. The important thing is developing a precise, measurable definition. There will be disagreement in the development of that definition, and you will necessarily change the definition over time.
+这里某些定义您可能不认同，这也是非常正常的，因为每个人的质量定义都应该特定于您的代码库和您的需求的。最根本的是要建立一个精确的、可测量的定义。在这个定义的发展过程中会有不同的意见，随着时间的推移，你必然会改变这个定义。
 
-After you’ve developed the definition, this is an area where instrumentation can be genuinely challenging, and instrumentation is a requirement for useful metrics. Instrumentation complexity is the biggest friction point for adopting these techniques in practice, but if you can push through, you unlock something pretty phenomenal: a real, dynamic quality score that you can track over time and use to create a clarity of alignment in your approach that conceptual alignment cannot.
+在您确定了定义之后，怎样将这些定义工具化是极具挑战性的，而工具化是收集指标的前提条件。测量工具的复杂度是实际应用的最大阻碍，但如果你能突破这一阻碍，你的收获也会很惊人：一个真正的、动态的随着时间的推移的质量打分，你可以追踪和建立明晰的alignment，这一点一个只有定性的抽象的alignment是做不到的。
 
-With quality defined and instrumented, your next step is deciding between investing in a quality team or a quality program. A dedicated team is easy to coordinate and predictable in its bandwidth and is generally the easier place to start.
+有了质量的定义和工具，您的下一步是决定是花精力建立质量团队还是质量流程。一个专门的团队很容易协调，并且在其带宽上是可预测的，而且通常是更容易开始的地方。
 
-测量技术质量
+## 技术质量团队
 
-在软件工程中度量的愿望通常已经超过了我们的度量状态。Accelerate标识度量速度的指标，这对于定位流程和工具问题非常有用，但是这些指标在代码被合并之后才开始。您如何度量您的代码库的质量，以便您能够识别差距，提出一个行动计划，并评估您努力改进的影响?
+技术质量团队是致力于在代码库中实现高质量的软件工程团队。您可以将此团队称为开发人员生产力、开发人员工具或产品基础设施。在任何情况下，团队的目标是创建并保持公司软件的质量。
 
-有一些与有效变更相关的过程度量。例如，您可以根据较小的拉请求通常质量更高的理解来度量每个拉请求中更改的文件数量。您还可以在假设非常大的文件通常难以扩展的情况下，测量每个文件的代码库的代码行数。这两种方法都很有帮助，我甚至建议对它们进行度量，但我认为它们充其量只是代码质量的代理度量。
+这不是所谓的质量保证（QA）团队。尽管两个团队都对测试进行了投资，但技术质量团队有更广泛的职责，从工作流构建到测试，再到接口设计。
 
-我的经验是，有用地度量代码质量是可能的，它归结为开发一个极其精确的质量定义。您对质量的定义越详细，它对度量代码库就越有用，对那些希望提高他们所从事领域的质量的人们就越有指导意义。这种方法在构建演化体系结构和回收不合理的软件中有一些详细的描述。
+当你创建这样一个团队时，从3到6人的固定团队规模开始。拥有一个小团队会迫使你严格地按照影响来排列路线图的优先级，并确保你将注意力集中在可实现的目标上。随着时间的推移，这个团队将需要维护越来越多的系统，这也需要更多的投入。Jenkins集群就是一个常见的例子，你会希望[控制团队的规模](https://lethain.com/sizing-engineering-teams/)以适应更广泛的工程师团队。这里没有一个特别通用的经验法则，但是下面这个投入的安排差不多是一个合适的数字：你在基础设施上的投入，加上每15个产品工程师分配一个一个工具开发工程师。
 
-在您的质量定义中考虑包含一些有代表性的组件:
+这些团队很少有产品经理，通常是一个或多个Staff+工程师，以及engineering manager合伙人来扮演PM这个角色。有时他们会包括一个技术项目经理，但通常是在他们开始管理质量流程之后（在下一节中描述）。
 
-代码中有多少百分比是静态类型的?
+当运作这些团队中的一个时，成功的一些基本要素是:
 
-有多少文件有关联的测试?
+1. **相信指标胜过直觉。**你应该有衡量每个项目的指标。质量是一个复杂的系统工程，是那种你的直觉很容易欺骗你的地方。同样地，随着你在公司的职位越来越高，你的经验将不再能反映大多数人的经验。你已经知道困难的地方了，如果你遇到新的困难，你也是第一个寻求帮助的人，但大多数人不具备这样的条件。指标让你更诚实。
+2. **保持你的直觉敏锐**。随着时间的推移，代码和流程会发生变化，而且随着你远离开发岗，你的感觉每周都会变得迟钝。大多数人认为团队嵌入和团队轮换是保持直觉的最好方法。其他一些人会追踪聊天记录来发现问题，或者定期地与产品开发人员1对1讨论。当然最好的办法是两者都做，并保持他们的metrics dashboards随时能用。
+3. **倾听用户并向他们学习。**有一个流行的概念是“品味水平Taste Level”，意思是有品味水平的人就是知道什么是好的。不同的人怎样去设计有效的质量提升方式有着重大差异，但这并不是说这种品味是什么天生的技能。最优秀的人员专注于深入理解他们的用户试图完成什么，并将用户需求看得比现实的局限更重要。
 
-代码库中的测试覆盖率是多少?
+   工具的采用和可用性比原始功能重要得多。一个难以使用的强大工具将获得少数几个厉害的用户，但大多数人会忽略它。慢慢来，把这些细节弄清楚，隐藏所有[偶然的复杂性accidental complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)。观察一个工程师在没有任何帮助的情况下是如何第一次尝试使用你的工具。改进gaps。重复以上步骤10次！如果你没有对你的工具进行用户研究，那么你注定是无缘成为一个质量团队的。
 
-跨模块的公共接口有多窄?
-
-使用首选HTTP库的文件的百分比是多少?
-
-终端是否在冷启动后500ms内响应请求?
-
-有多少函数具有危险的写后读行为?还是对主数据库实例执行不必要的读取?
-
-有多少个端点在一个事务中执行所有的状态突变?
-
-有多少函数获得了低粒度的锁?
-
-在超过一半的pull请求中有多少热文件被更改?
-
-如果您不同意某些属性应该存在于您的代码库的质量定义中:您的定义应该是特定于您的代码库和您的需求的。重要的是要建立一个精确的、可测量的定义。在这个定义的发展过程中会有不同的意见，随着时间的推移，你必然会改变这个定义。
-
-在您开发了定义之后，这是一个度量工具真正具有挑战性的领域，并且度量工具是有用度量工具的需求。仪表的复杂性是最大的摩擦点采用这些技术在实践中,但如果你能通过,你解锁一些相当惊人:一个真正的、动态质量分数随着时间的推移,你可以跟踪和使用在你的方法创建一个清晰的定位,概念不能对齐。
-
-有了质量的定义和工具，您的下一步是决定是投资于一个质量团队还是一个质量计划。一个专门的团队很容易协调，并且在其带宽上是可预测的，而且通常是更容易开始的地方。
-
-## Technical quality team
-
-A technical quality team is a software engineering team dedicated to creating quality in your codebase. You might call this team Developer Productivity, Developer Tools, or Product Infrastructure. In any case, the team’s goal is to create and preserve quality across your company’s software.
-
-This is not what’s sometimes called a quality assurance team. Although both teams make investments into tests, the technical quality team has a broader remit from workflow to build to test to interface design.
-
-When you’re bootstrapping such a team, start with a fixed team size of three to six folks. Having a small team forces you to relentlessly prioritize their roadmap on impact and ensures you’ll maintain focus on the achievable. Over time this team will accumulate systems to maintain that require scaling investment, Jenkins clusters are a common example of this, and you’ll want to size the team as a function of the broader engineering organization. Rules of thumb are tricky here, but maybe one engineer working on developer tooling for every fifteen product engineers, in addition to your infrastructure engineering investment.
-
-It’s rare for these teams to have a product manager, generally one-or-more Staff-plus engineers, and the engineering manager partner to fill that role. Sometimes they employ a Technical Program Manager, but typically that is after they cross into operating a Quality program as described in the next section.
-
-When spinning up and operating one of these teams, some fundamentals of success are:
-
-1. Trust metrics over intuition. You should have a way to measure every project. Quality is a complex system, the sort of place where your intuition can easily deceive you. Similarly, as you become more senior at your company, your experience will no longer reflect most other folks’ experiences. You already know about the rough edges, and you’ll be the first person in line to get help if you find a new one, but most other folks don’t. Metrics keep you honest.
-2. Keep your intuition fresh. Code and process change over time, and your intuition is going stale every week you’re away from building product features. Most folks find that team embedding and team rotations are the best way to keep your instincts relevant. Others monitor chat for problems, as well as a healthy schedule of 1:1 discussions with product developers. The best folks do both of those and keep their metrics dashboards handy.
-3. Listen to and learn from your users. There is a popular idea of “taste level,” which implies that some folks simply know what good looks like. There is a huge variance in folks who design effective quality investments, but it isn’t an innate skill. The best folks focus on deeply understanding what their users are trying to accomplish and prioritize user needs over implementation constraints. 
-
-   Adoption and usability of your tools are much more important than raw power. A powerful tool that’s difficult to use will get a few power users, but most folks will pass it by. Slow down to get these details right. Hide all the accidental complexity. Watch an engineer try to use your tool for their first time without helping them with it. Improve the gaps. Do that ten more times! If you’re not doing user research on your tools, then you are doomed as a quality investment team.
-
-4. Do fewer things, but do them better. When you’re building for the entire engineering organization, anything you do well will accelerate the overall organization. Anything you do poorly, including something almost great with too many rough edges, will drag everyone down. Although it’s almost always true that doing the few most important things will contribute more than many mediocre projects, this is even more true in cases where you’re trying to roll out tools and workflows to your entire organization \(the organizational process-in-progress limits still apply here!\).
-5. Don’t hoard impact. There’s a fundamental tension between centralized quality teams and the teams that they support. It’s often the case that there’s a globally optimal approach preferred by the centralized team, which grates heavily on a subset of teams that work on atypical domains or workloads. One representative example is a company writing its backend servers in JavaScript and not allowing their machine learning engineers to use the Python ecosystem because they don’t want to support two ecosystems. Another case is a company standardized on using REST/HTTP2/JSON for all APIs where a particular team wants to use gRPC instead. There’s no perfect answer here, but it’s important to establish a thoughtful approach that balances the benefits of exploration against the benefits of standardization.
+4. **做更少的事，但做得更好。**当您为整个工程组织构建时，您做得好的任何事情都将加速整个组织。任何你做得不好的事情，包括那些差一点点就特别优秀的、但是却太粗糙的事情，都会拖累所有人。做少数最重要的事情会比做许多平庸的项目贡献更多，当您试图向整个组织推出工具和工作流时更是如此\(比如很多组织限制progress-in-progress的数量也是同样的原因！\)
+5. **不要囤积影响。**在中心化的质量团队和他们所支持的团队之间存在着一种特别的紧张关系。通常情况下，集中式团队倾向于采用全局最优的方法，但这可能会严重影响一些在非典型领域工作的少数团队。一个典型的例子是，一家公司用JavaScript编写后端服务器，不允许他们的机器学习工程师使用Python生态系统，因为他们不想支持两个生态系统。另一种情况是，某公司标准化了对所有api使用REST/HTTP2/JSON，而某个团队想要使用gRPC。这里没有完美的答案，但是重要的是要[建立一种深思熟虑的方法来平衡扩张和标准化的好处](https://lethain.com/magnitudes-of-exploration/)。
 
 A successful technical quality team using the above approaches will be unquestionably more productive than if the same number of engineers were directly doing product engineering work. Indeed, discounted developer productivity \(in the spirit of discounted cash flow\) is the theoretically correct way to measure such a team’s impact. Only theoretically, because such calculations are mostly an evaluation of your self-confidence.
 
@@ -199,29 +163,11 @@ Even if you’re quite successful, you’ll always have a backlog of high-impact
 
 It’s a good sign when your team has more available high-impact work than you can take on: if you aren’t selective about which projects to take on, then you’re not thinking broadly enough. This means you shouldn’t necessarily try to grow your technical quality team if you have a backlog. However, if you find that there is critical quality work that you can’t get to, then it may be time to explore starting a quality program.
 
-技术质量团队
 
-技术质量团队是致力于在代码库中创建质量的软件工程团队。您可以将此团队称为开发人员生产力、开发人员工具或产品基础结构。在任何情况下，团队的目标是创建并保持公司软件的质量。
 
-这不是所谓的质量保证团队。尽管两个团队都对测试进行了投资，但技术质量团队有更广泛的职责，从工作流构建到测试，再到接口设计。
 
-当你创建这样一个团队时，从3到6人的固定团队规模开始。拥有一个小团队会迫使你严格地按照影响来排列路线图的优先级，并确保你将注意力集中在可实现的目标上。随着时间的推移，这个团队将积累系统来维护那些需要规模化投资的系统，Jenkins集群就是一个常见的例子，你会希望将团队规模作为更广泛的工程组织的一个功能。这里的经验法则很复杂，但是除了你的基础设施工程投资之外，也许每15个产品工程师中就有一个工程师在开发工具上工作。
 
-这些团队很少有一个产品经理，通常是一个或多个员工和工程师，以及工程经理合伙人来填补这个角色。有时他们会雇佣一个技术计划经理，但通常是在下一节中描述的，在他们进入操作质量计划之后。
 
-当运作这些团队中的一个时，成功的一些基本要素是:
-
-相信指标胜过直觉。你应该有一种方法来衡量每个项目。质量是一个复杂的系统，是那种你的直觉很容易欺骗你的地方。同样地，随着你在公司的职位越来越高，你的经验将不再能反映大多数人的经验。你已经知道困难的地方了，如果你找到了新的，你会是第一个寻求帮助的人，但大多数人不会。指标让你诚实。
-
-保持你的直觉新鲜。随着时间的推移，代码和流程会发生变化，而且你的直觉每周都会变得陈旧，你远离构建产品特性。大多数人发现团队嵌入和团队轮换是保持直觉的最好方法。其他的监控问题的聊天，以及与产品开发人员1:1讨论的健康时间表。最好的人两者都做，并保持他们的指标仪表板在手边。
-
-倾听用户并向他们学习。有一个流行的概念是“品味水平”，这意味着一些人仅仅知道什么是好的。在那些设计有效的高质量投资的人们中存在着巨大的差异，但这并不是天生的技能。最优秀的人员专注于深入理解他们的用户试图完成什么，并将用户需求优先于实现约束。
-
-工具的采用和可用性比原始功能重要得多。一个难以使用的强大工具将获得少数高级用户，但大多数人会忽略它。慢慢来，把这些细节弄清楚。隐藏所有偶然的复杂性。看一个工程师第一次尝试使用你的工具，却没有帮助他们。提高缺口。再做十次!如果你没有对你的工具进行用户研究，那么你注定是一个高质量的投资团队。
-
-做更少的事，但做得更好。当您为整个工程组织构建时，您做得好的任何事情都将加速整个组织。任何你做得不好的事情，包括那些几乎是伟大的、带有太多粗糙边的事情，都会拖累所有人。虽然做一些最重要的事情会比做许多平庸的项目贡献更多，这几乎总是正确的，但当您试图向整个组织推出工具和工作流时更是如此\(在进行中的组织过程限制在这里仍然适用!\)
-
-不要囤积的影响。在集中的质量团队和他们所支持的团队之间存在着一种基本的紧张关系。通常情况下，集中式团队倾向于采用全局最优的方法，这严重影响了在非典型领域或工作负载下工作的团队子集。一个典型的例子是，一家公司用JavaScript编写后端服务器，不允许他们的机器学习工程师使用Python生态系统，因为他们不想支持两个生态系统。另一种情况是，某公司标准化了对所有api使用REST/HTTP2/JSON，而某个团队想要使用gRPC。这里没有完美的答案，但是重要的是要建立一种深思熟虑的方法来平衡探索的好处和标准化的好处。
 
 一个成功的技术质量团队使用上述方法无疑会比同等数量的工程师直接从事产品工程工作的效率更高。事实上，折现的开发人员生产力\(在折现的现金流的精神下\)在理论上是衡量这样一个团队影响的正确方法。这只是理论上的，因为这样的计算主要是对你自信的评估。
 
