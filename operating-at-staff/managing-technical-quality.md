@@ -157,64 +157,22 @@ _**数据模型**_是接口和状态的交集，将有状态系统的功能限�
 4. **做更少的事，但做得更好。**当您为整个工程组织构建时，您做得好的任何事情都将加速整个组织。任何你做得不好的事情，包括那些差一点点就特别优秀的、但是却太粗糙的事情，都会拖累所有人。做少数最重要的事情会比做许多平庸的项目贡献更多，当您试图向整个组织推出工具和工作流时更是如此\(比如很多组织限制progress-in-progress的数量也是同样的原因！\)
 5. **不要囤积影响。**在中心化的质量团队和他们所支持的团队之间存在着一种特别的紧张关系。通常情况下，集中式团队倾向于采用全局最优的方法，但这可能会严重影响一些在非典型领域工作的少数团队。一个典型的例子是，一家公司用JavaScript编写后端服务器，不允许他们的机器学习工程师使用Python生态系统，因为他们不想支持两个生态系统。另一种情况是，某公司标准化了对所有api使用REST/HTTP2/JSON，而某个团队想要使用gRPC。这里没有完美的答案，但是重要的是要[建立一种深思熟虑的方法来平衡扩张和标准化的好处](https://lethain.com/magnitudes-of-exploration/)。
 
-A successful technical quality team using the above approaches will be unquestionably more productive than if the same number of engineers were directly doing product engineering work. Indeed, discounted developer productivity \(in the spirit of discounted cash flow\) is the theoretically correct way to measure such a team’s impact. Only theoretically, because such calculations are mostly an evaluation of your self-confidence.
+一个成功的技术质量团队使用上述方法无疑会比同等数量的工程师直接从事产品工程工作的效率更高。理论上讲，开发人员生产力的折现率\(类似于[现金流折现率](https://en.wikipedia.org/wiki/Discounted_cash_flow)的概念：未来的钱不如现在的钱值钱，未来同样的工作内容做起来比现在做要高效得多\)是可以衡量一个团队影响的。当然，这只是理论上的，因为这样的计算实际工作中基本上只能表示你有多自付。
 
-Even if you’re quite successful, you’ll always have a backlog of high-impact work that you want to take on but don’t have the bandwidth to complete. Organizations don’t make purely rational team resourcing decisions, and you may find that you lack the bandwidth to complete important projects and likewise can’t get approval to hire additional folks onto your team.
+即使你非常成功，你也会有一堆你想做却没有时间去完成的重要工作。组织不会做出纯粹理性的团队资源决策，您可能会发现您缺乏完成重要项目的资源，同样也不能获得批准为您的团队雇用额外的人员。
 
-It’s a good sign when your team has more available high-impact work than you can take on: if you aren’t selective about which projects to take on, then you’re not thinking broadly enough. This means you shouldn’t necessarily try to grow your technical quality team if you have a backlog. However, if you find that there is critical quality work that you can’t get to, then it may be time to explore starting a quality program.
+当你的团队拥有比你所能承担的更多可用的高影响力工作时，这是一个好迹象:如果你没有对承担哪些项目进行选择，那么你还需要扩展一下思路--如果您还有很多需要做的事情还没做，您就还不必尝试去发展您的技术质量团队；然而，如果你发现有一些重要的质量提升的工作是你做不到的，那么也许是时候开始一个质量计划（quality program）了。
 
+## 质量计划
 
+质量计划中的"计划"（program）不是指的计算机代码（code），而是由一个专门的团队领导的在整个组织中维持技术质量的initiative。质量计划承担了实现组织的软件质量目标级别的广泛职责。这些相对不常见，但您可能遇到过类似的负责公司事件回顾和补救的incident系统。
 
-
-
-
-
-一个成功的技术质量团队使用上述方法无疑会比同等数量的工程师直接从事产品工程工作的效率更高。事实上，折现的开发人员生产力\(在折现的现金流的精神下\)在理论上是衡量这样一个团队影响的正确方法。这只是理论上的，因为这样的计算主要是对你自信的评估。
-
-即使你非常成功，你也会有一堆你想做却没有时间去完成的重要工作。组织不会做出纯粹理性的团队资源决策，您可能会发现您缺乏完成重要项目的带宽，同样也不能获得批准为您的团队雇用额外的人员。
-
-当你的团队拥有比你所能承担的更多可用的高影响力工作时，这是一个好迹象:如果你没有对承担哪些项目进行选择，那么你的思维就不够广泛。这意味着，如果您有待办事项列表，您不必尝试去发展您的技术质量团队。然而，如果你发现有一些重要的高质量的工作是你做不到的，那么也许是时候开始一个高质量的计划了。
-
-## Quality program
-
-A quality program isn’t computer code at all, but rather an initiative led by a dedicated team to maintain technical quality across an organization. A quality program takes on the broad remit of achieving the organization’s target level of software quality. These are relatively uncommon, but something similar you’ve probably encountered is an incident program responsible for a company’s incident retrospectives and remediations.
-
-The technical components of running a quality program are the sorts of things discussed above, so here we’ll focus on managing a program effectively. Your first step is to find a technical program manager who can co-lead the program and operate its mechanics. While you can make considerable progress on an organizational program’s informational aspects without a technical program manager; however, it’s a trap. You’ll be crushed by the coordination overhead of solo-driving a program in a large organization.
-
-Operating organizational programs is a broad topic about which much has been written, but the core approach is:
-
-1. Identify a program sponsor. You can’t change an organization’s behavior without an empowered sponsor. Organizations behave the way they do because it’s the optimal solution to their current constraints, and you can’t shift those constraints without the advocacy of someone powerful.
-2. Generate sustainable, reproducible metrics. It’s common for folks running a program to spend four-plus hours a week maintaining their dataset by hand. This doesn’t work. Your data will have holes in it, you won’t be able to integrate your data with automation in later steps, and you’ll run out of energy to do the work to effect real change; refreshing a metrics dashboard has no inherent value.
-3. Identify program goals for every impacted team and a clear path for them to accomplish those goals. Your program has to identify specific goals for each impacted team. For example, reducing test flakiness in their tests or closing incident remediations more quickly. However, it’s essential that you provide the map to success! So many programs demand participation from other teams without providing clear directions on how they can accomplish their part. The program owner is the subject matter expert, don’t offload your strategy to every team to independently reinvent.
-4. Build the tools and documentation to support teams towards their goals. Once you’ve identified a clear path for teams to accomplish your program goals, figure out how you can help them make those changes! This might be providing “golden examples” of what things ought to look like, or an example pull request refactoring a challenging section of code into the new pattern. It might be providing a test script to verify the migration worked correctly. It might be auto-generating the conversion commit to test, verify, and merge without having engineers write it themselves. Do as much as you possibly can to avoid every team having to deeply understand the problem space you’re attempting to make progress in.
-5. Create a goal dashboard and share it widely. Once you have your program goals communicated to each team, provide dashboards that help them understand their current state, their goal state, and that give reinforcing feedback on their \(hopeful\) progress along the way. The best dashboard is going to be both a scorecard for each team’s work and also provide breadcrumbs for each team on where to focus their next efforts.  
-
-   There are three distinct zoom-levels that your dashboard should support. The fully zoomed-out level helps you evaluate your program’s impact. The fully zoomed-in level helps an individual team understand their remaining work. A third level between the two helps organizational leaders hold their teams accountable \(and supports your program sponsor in making concrete, specific asks to hold those leaders accountable\).
-
-6. Send programmatic nudges for folks behind on their goals. Folks are busy. They won’t always prioritize your program’s goals. Alternatively, they might do an amazing job of making your requested improvements but backtrack later with deprecated practices. Use nudges to direct the attention of teams towards the next work they should take towards your program’s goals. Remember, attention is a scarce resource! If you waste folks’ time with a nudge email or ping, they won’t pay attention to the next one.
-7. Periodically review program status with your sponsor. Programs are trying to make progress on an organizational priority that doesn’t naturally align with the teams’ goals. Many teams struggle to break from their local prioritization to accomplish global priorities. This is where it’s essential to review your overall progress with your sponsor and point them towards the teams that prioritize program work. Effectively leveraging your sponsor to bridge misaligned prioritization will be essential to your success.
-
-In a lot of ways, a program is just an endless migration, and the techniques that apply to migrations work for programs as well.
-
-If you get all of those steps right, you’re running a genuinely great program. This might feel like a lot of work, and wow, it is: a lot of programs go wrong. The three leading causes of failed programs are:
-
-1. running it purely from a process perspective and becoming detached from the reality of what you’re trying to accomplish,
-2. running it purely from a technical perspective and thinking that you can skip the essential steps of advocating for your goal and listening to the folks you’re trying to motivate,
-3. trying to cover both perspectives as a single person–don’t go it alone!
-
-A bad program is a lot like an inefficient non-profit: the goal is right, but few funds reach the intended goal. No matter how you decide to measure technical quality, the most important thing to always remember when running your quality program is that the program isn’t the goal. The goal is to create technical quality. Organizational programs are massive and build so much momentum that inertia propels them forward long after they’ve stopped working. Keep your program lean enough to cancel, and remain self-critical enough to cancel if it ceases driving quality creation.
-
-质量计划
-
-一个高质量的程序根本不是计算机代码，而是由一个专门的团队领导的在整个组织中维持技术质量的计划。质量程序承担了实现组织的软件质量目标级别的广泛职责。这些相对不常见，但您可能遇到过类似的情况，即负责公司事件回顾和纠正的事件程序。
-
-运行一个高质量程序的技术组成部分就是上面讨论的那些事情，所以在这里我们将集中于有效地管理一个程序。你的第一步是找到一个技术项目经理，他可以共同领导这个项目并操作它的机制。虽然在没有技术规划经理的情况下，您可以在组织规划的信息方面取得相当大的进展;然而，这是一个陷阱。你会被一个大型组织中独自驱动一个程序的协调开销压得喘不过气来。
+我们在上面一节已经讨论过运行一个质量计划所需要的组成部分，所以在这一节我们将主要讲解怎样有效地管理一个计划。你的第一步是找到一个技术项目经理，他可以共同领导这个项目。虽然在没有技术规划经理的情况下，您也可以在组织规划方面取得相当大的进展;然而，这是一个陷阱--你最终还是会被大型组织中独自驱动一个程序的协调需要花费的精力压得喘不过气来。
 
 运营组织程序是一个广泛的话题，已经有很多关于它的文章，但核心方法是:
 
-确定计划发起人。如果没有被授权的赞助者，你无法改变一个组织的行为。组织按照他们的方式行事，因为这是他们当前约束的最佳解决方案，如果没有一些有权势的人的支持，你无法改变这些约束。
-
-生成可持续的、可重复的指标。对于运行程序的人来说，每周花4个多小时手工维护他们的数据集是很常见的。这并不工作。你的数据将会有漏洞，你将无法在以后的步骤中将数据与自动化集成起来，并且你将耗尽精力去完成真正的改变;刷新指标仪表板没有内在价值。
+1. 找的计划的赞助者sponsor。如果没有有权威的赞助者，你很难改变一个组织的行为。组织按照当下的方式行事，都是因为这是当前限制条件下的最佳解决方案，如果没有一些有权势的人的支持，你无法改变这些限制条件。
+2. 生成可持续的、可复现的指标。对于执行计划的人来说，每周花4个多小时手工维护他们的数据集是很常见的--这种方式是不管用的。你的数据将会有漏洞，你将无法在以后的步骤中将数据与自动化集成起来，并且你将耗尽本应去做真正有价值的事情的精力--要知道，不停地去刷新dashboard是没有真正价值的。
 
 为每个受影响的团队确定规划目标，并为他们确定实现这些目标的清晰路径。您的程序必须为每个受影响的团队确定具体的目标。例如，在测试中减少测试薄片或更快地关闭事件纠正。然而，你必须提供通向成功的地图!如此多的项目要求其他团队的参与，却没有为他们如何完成自己的部分提供明确的指导。程序所有者是主题专家，不要把你的策略交给每个团队去独立地重新设计。
 
@@ -227,6 +185,30 @@ A bad program is a lot like an inefficient non-profit: the goal is right, but fe
 为那些在目标上落后的人提供有计划的鼓励。人忙。他们不会总是优先考虑你的计划的目标。或者，他们可能会出色地完成您所要求的改进工作，但稍后会使用不赞成的实践返回。使用轻推将团队的注意力引导到他们应该朝向您的计划目标的下一项工作上。记住，注意力是一种稀缺资源!如果你把人们的时间浪费在一封推送邮件上，他们就不会关注下一封。
 
 与您的赞助商定期审查项目状态。程序试图在组织的优先级上取得进展，而该优先级与团队的目标并不自然地一致。许多团队努力打破他们的本地优先级来完成全球优先级。这就是和你的赞助人一起审查你的整体进展的关键所在，并让他们指向优先考虑计划工作的团队。有效地利用你的资助人来弥补不合理的优先顺序对你的成功至关重要。
+
+
+
+1. Generate sustainable, reproducible metrics. It’s common for folks running a program to spend four-plus hours a week maintaining their dataset by hand. This doesn’t work. Your data will have holes in it, you won’t be able to integrate your data with automation in later steps, and you’ll run out of energy to do the work to effect real change; refreshing a metrics dashboard has no inherent value.
+2. Identify program goals for every impacted team and a clear path for them to accomplish those goals. Your program has to identify specific goals for each impacted team. For example, reducing test flakiness in their tests or closing incident remediations more quickly. However, it’s essential that you provide the map to success! So many programs demand participation from other teams without providing clear directions on how they can accomplish their part. The program owner is the subject matter expert, don’t offload your strategy to every team to independently reinvent.
+3. Build the tools and documentation to support teams towards their goals. Once you’ve identified a clear path for teams to accomplish your program goals, figure out how you can help them make those changes! This might be providing “golden examples” of what things ought to look like, or an example pull request refactoring a challenging section of code into the new pattern. It might be providing a test script to verify the migration worked correctly. It might be auto-generating the conversion commit to test, verify, and merge without having engineers write it themselves. Do as much as you possibly can to avoid every team having to deeply understand the problem space you’re attempting to make progress in.
+4. Create a goal dashboard and share it widely. Once you have your program goals communicated to each team, provide dashboards that help them understand their current state, their goal state, and that give reinforcing feedback on their \(hopeful\) progress along the way. The best dashboard is going to be both a scorecard for each team’s work and also provide breadcrumbs for each team on where to focus their next efforts.  
+
+   There are three distinct zoom-levels that your dashboard should support. The fully zoomed-out level helps you evaluate your program’s impact. The fully zoomed-in level helps an individual team understand their remaining work. A third level between the two helps organizational leaders hold their teams accountable \(and supports your program sponsor in making concrete, specific asks to hold those leaders accountable\).
+
+5. Send programmatic nudges for folks behind on their goals. Folks are busy. They won’t always prioritize your program’s goals. Alternatively, they might do an amazing job of making your requested improvements but backtrack later with deprecated practices. Use nudges to direct the attention of teams towards the next work they should take towards your program’s goals. Remember, attention is a scarce resource! If you waste folks’ time with a nudge email or ping, they won’t pay attention to the next one.
+6. Periodically review program status with your sponsor. Programs are trying to make progress on an organizational priority that doesn’t naturally align with the teams’ goals. Many teams struggle to break from their local prioritization to accomplish global priorities. This is where it’s essential to review your overall progress with your sponsor and point them towards the teams that prioritize program work. Effectively leveraging your sponsor to bridge misaligned prioritization will be essential to your success.
+
+In a lot of ways, a program is just an endless migration, and the techniques that apply to migrations work for programs as well.
+
+If you get all of those steps right, you’re running a genuinely great program. This might feel like a lot of work, and wow, it is: a lot of programs go wrong. The three leading causes of failed programs are:
+
+1. running it purely from a process perspective and becoming detached from the reality of what you’re trying to accomplish,
+2. running it purely from a technical perspective and thinking that you can skip the essential steps of advocating for your goal and listening to the folks you’re trying to motivate,
+3. trying to cover both perspectives as a single person–don’t go it alone!
+
+A bad program is a lot like an inefficient non-profit: the goal is right, but few funds reach the intended goal. No matter how you decide to measure technical quality, the most important thing to always remember when running your quality program is that the program isn’t the goal. The goal is to create technical quality. Organizational programs are massive and build so much momentum that inertia propels them forward long after they’ve stopped working. Keep your program lean enough to cancel, and remain self-critical enough to cancel if it ceases driving quality creation.
+
+
 
 在很多方面，一个程序就是一个无止境的迁移，适用于迁移的技术也适用于程序。
 
@@ -246,7 +228,7 @@ When you realize your actual technical quality has fallen considerably behind yo
 
 If you find yourself struggling with technical quality–and we all do, frequently–then start with something small, and iterate on it until it works. Then add another technique, and iterate on that too. Slowly build towards something that genuinely works, even if it means weathering accusations of not moving fast enough. When it comes to complex systems and interdependencies, moving quickly is just optics. It’s methodical movement that gets the job done.
 
-从小处开始，慢慢加入
+从小处开始，慢慢迭代
 
 当你意识到你的实际技术质量远远落后于你的目标技术质量时，自然的第一反应是恐慌并开始推出大量的技术和解决方案。把所有的食材都倒进锅里，不可避免地，效果不好，更糟糕的是，你甚至不知道哪一部分该保存。
 
