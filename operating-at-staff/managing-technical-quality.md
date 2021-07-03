@@ -4,7 +4,7 @@
 >
 > - Dmitry Petrashko
 
-如果有一件事工程师、工程经理和技术主管可能会达成一致，那就是总是存在技术质量危机。有一种结论很简单直接，那就是: 我们的工程师没有优先考虑质量，我们需要雇佣更好的工程师或重新培训现有的工程师。当然，如果你愿意的话的话，可以随便用“产品经理”或“高管”等代替“工程师”。在一个有冲突的故事里面往往需要有一个明确的反面角色，这样就能很方便地把责任从领导层身上转移了出来。然而，就像大多数把责任甩给权力最小的人身上的做法，既无益又错误。
+如果有一件事工程师、工程经理和技术主管可能会达成一致，那就是总是存在技术质量危机。有一种简单粗暴的结论: 我们的工程师没有优先考虑质量，我们需要雇佣更好的工程师或重新培训现有的工程师。当然，如果你愿意的话的话，可以随便用“产品经理”或“高管”等代替“工程师”。在一个有冲突的故事里面往往需要有一个明确的反面角色，这样就能很方便地把责任从领导层身上转移了出来。然而，就像大多数把责任甩给最底层的人身上的做法，既无益又错误。
 
 当你接受低技术质量是由糟糕的决策导致的这一前提时，你就会开始寻找糟糕的判断出现在哪。公司里肯定有人是罪魁祸首。是之前的CTO吗?是那个带着紧张的微笑看着你的总工吗?是每个人都难辞其咎吗?如果这不是那些人的错，会不会是你的错呢?
 
@@ -171,56 +171,26 @@ _**数据模型**_是接口和状态的交集，将有状态系统的功能限�
 
 如何运营组织的program是一个[宽泛的话题](https://lethain.com/programs-owning-the-unownable/)，已经有很多关于它的文章，但核心方法是:
 
-1. 找的计划的赞助者sponsor。如果没有有权威的赞助者，你很难改变一个组织的行为。组织按照当下的方式行事，都是因为这是当前限制条件下的最佳解决方案，如果没有一些有权势的人的支持，你无法改变这些限制条件。
-2. 生成可持续的、可复现的指标。对于执行计划的人来说，每周花4个多小时手工维护他们的数据集是很常见的--这种方式是不管用的。你的数据将会有漏洞，你将无法在以后的步骤中将数据与自动化集成起来，并且你将耗尽本应去做真正有价值的事情的精力--要知道，不停地去刷新dashboard是没有真正价值的。
+1. **找的计划的赞助者sponsor。**如果没有有权威的赞助者，你很难改变一个组织的行为。组织按照当下的方式行事，都是因为这是当前限制条件下的最佳解决方案，如果没有一些有权势的人的支持，你无法改变这些限制条件。
+2. **生成可持续的、可复现的指标。**对于执行计划的人来说，每周花4个多小时手工维护他们的数据集是很常见的--这种方式是不管用的。你的数据将会有漏洞，你将无法在以后的步骤中将数据与自动化集成起来，并且你将耗尽本应去做真正有价值的事情的精力--要知道，不停地去刷新dashboard是没有真正价值的。
+3. **为每个受影响的团队确定规划目标，并为他们确定实现这些目标的清晰路径。**您的程序必须为每个受影响的团队确定具体的目标。例如，在测试中减少测试薄片或更快地关闭事件纠正。然而，你必须提供通向成功的地图!如此多的项目要求其他团队的参与，却没有为他们如何完成自己的部分提供明确的指导。程序所有者是主题专家，不要把你的策略交给每个团队去独立地重新设计。
+4. **构建工具和文档以支持团队实现目标**。一旦您为团队确定了实现您的计划目标的清晰路径，请找出您可以如何帮助他们进行这些更改!这可能提供了一个“黄金示例”，说明事情应该是什么样子的，或者一个pull request重构一个具有挑战性的代码段到新模式的示例。它可能提供一个测试脚本来验证迁移是否正确工作。它可能自动生成提交到测试、验证和合并的转换，而不需要工程师自己编写。尽量避免让每个团队都深入了解你想要取得进展的问题所在。
+5. **创建一个目标仪表板，并广泛地分享它**。一旦你把你的计划目标传达给每个团队，提供仪表板来帮助他们理解他们的当前状态，他们的目标状态，并且在他们前进的道路上给他们\(有希望的\)进展加强的反馈。最好的仪表板既是每个团队工作的计分卡，也是为每个团队提供下一步工作重点的线索。
 
-为每个受影响的团队确定规划目标，并为他们确定实现这些目标的清晰路径。您的程序必须为每个受影响的团队确定具体的目标。例如，在测试中减少测试薄片或更快地关闭事件纠正。然而，你必须提供通向成功的地图!如此多的项目要求其他团队的参与，却没有为他们如何完成自己的部分提供明确的指导。程序所有者是主题专家，不要把你的策略交给每个团队去独立地重新设计。
+   仪表板应该支持三种不同的缩放级别。完全缩小的级别可以帮助您评估程序的影响。完全放大的级别可以帮助单个团队理解他们剩余的工作。这两个层次之间的第三个层次帮助组织领导人让他们的团队负责\(并支持您的计划发起人提出具体的、具体的要求来让这些领导人负责\)。
 
-构建工具和文档以支持团队实现目标。一旦您为团队确定了实现您的计划目标的清晰路径，请找出您可以如何帮助他们进行这些更改!这可能提供了一个“黄金示例”，说明事情应该是什么样子的，或者一个pull request重构一个具有挑战性的代码段到新模式的示例。它可能提供一个测试脚本来验证迁移是否正确工作。它可能自动生成提交到测试、验证和合并的转换，而不需要工程师自己编写。尽量避免让每个团队都深入了解你想要取得进展的问题所在。
+6. **为那些在目标上落后的人提供有计划的鼓励劝说。**大家工作都很忙，别人不会总是优先考虑你的计划的目标。或者，他们可能会完成您所要求的改进工作，但稍后又废止你的新实践，回到原先的路线。使用有计划地鼓励劝说将团队的注意力引导到他们应该朝向您的计划目标的下一项工作上。记住，注意力是一种稀缺资源!如果你把人们的时间浪费在一封推送邮件上，他们就不会关注下一封。
+7. **与您的赞助商定期审查项目状态。**程序试图在组织的优先级上取得进展，而该优先级与团队的目标并不天然地一致。许多团队努力打破他们的本地优先级来完成全球优先级。这就是和你的赞助人一起审查你的整体进展的关键所在，并让他们指向优先考虑计划工作的团队。有效地利用你的资助人来弥补不合理的优先顺序对你的成功至关重要。
 
-创建一个目标仪表板，并广泛地分享它。一旦你把你的计划目标传达给每个团队，提供仪表板来帮助他们理解他们的当前状态，他们的目标状态，并且在他们前进的道路上给他们\(有希望的\)进展加强的反馈。最好的仪表板既是每个团队工作的计分卡，也是为每个团队提供下一步工作重点的面包屑。
+在很多方面，一个计划就是一个没完没了的迁移，[适用于迁移的技术也适用于计划](https://lethain.com/migrations/)。
 
-仪表板应该支持三种不同的缩放级别。完全缩小的级别可以帮助您评估程序的影响。完全放大的级别可以帮助单个团队理解他们剩余的工作。这两个层次之间的第三个层次帮助组织领导人让他们的团队负责\(并支持您的计划发起人提出具体的、具体的要求来让这些领导人负责\)。
+如果你把所有这些步骤都做对了，你的计划执行的真的很棒。这里有大量的工作要做，因为很多计划都出了问题。计划失败的三个主要原因是:
 
-为那些在目标上落后的人提供有计划的鼓励。人忙。他们不会总是优先考虑你的计划的目标。或者，他们可能会出色地完成您所要求的改进工作，但稍后会使用不赞成的实践返回。使用轻推将团队的注意力引导到他们应该朝向您的计划目标的下一项工作上。记住，注意力是一种稀缺资源!如果你把人们的时间浪费在一封推送邮件上，他们就不会关注下一封。
+1. 纯粹从流程的角度运作它，脱离你试图实现的现实，
+2. 纯粹从技术角度运行它，认为你可以跳过『支持你的目标』和『倾听你试图激励的人』这些基本步骤，
+3. 尝试自己一个人去做上面这两点——不要孤军奋战!
 
-与您的赞助商定期审查项目状态。程序试图在组织的优先级上取得进展，而该优先级与团队的目标并不自然地一致。许多团队努力打破他们的本地优先级来完成全球优先级。这就是和你的赞助人一起审查你的整体进展的关键所在，并让他们指向优先考虑计划工作的团队。有效地利用你的资助人来弥补不合理的优先顺序对你的成功至关重要。
-
-
-
-1. Generate sustainable, reproducible metrics. It’s common for folks running a program to spend four-plus hours a week maintaining their dataset by hand. This doesn’t work. Your data will have holes in it, you won’t be able to integrate your data with automation in later steps, and you’ll run out of energy to do the work to effect real change; refreshing a metrics dashboard has no inherent value.
-2. Identify program goals for every impacted team and a clear path for them to accomplish those goals. Your program has to identify specific goals for each impacted team. For example, reducing test flakiness in their tests or closing incident remediations more quickly. However, it’s essential that you provide the map to success! So many programs demand participation from other teams without providing clear directions on how they can accomplish their part. The program owner is the subject matter expert, don’t offload your strategy to every team to independently reinvent.
-3. Build the tools and documentation to support teams towards their goals. Once you’ve identified a clear path for teams to accomplish your program goals, figure out how you can help them make those changes! This might be providing “golden examples” of what things ought to look like, or an example pull request refactoring a challenging section of code into the new pattern. It might be providing a test script to verify the migration worked correctly. It might be auto-generating the conversion commit to test, verify, and merge without having engineers write it themselves. Do as much as you possibly can to avoid every team having to deeply understand the problem space you’re attempting to make progress in.
-4. Create a goal dashboard and share it widely. Once you have your program goals communicated to each team, provide dashboards that help them understand their current state, their goal state, and that give reinforcing feedback on their \(hopeful\) progress along the way. The best dashboard is going to be both a scorecard for each team’s work and also provide breadcrumbs for each team on where to focus their next efforts.  
-
-   There are three distinct zoom-levels that your dashboard should support. The fully zoomed-out level helps you evaluate your program’s impact. The fully zoomed-in level helps an individual team understand their remaining work. A third level between the two helps organizational leaders hold their teams accountable \(and supports your program sponsor in making concrete, specific asks to hold those leaders accountable\).
-
-5. Send programmatic nudges for folks behind on their goals. Folks are busy. They won’t always prioritize your program’s goals. Alternatively, they might do an amazing job of making your requested improvements but backtrack later with deprecated practices. Use nudges to direct the attention of teams towards the next work they should take towards your program’s goals. Remember, attention is a scarce resource! If you waste folks’ time with a nudge email or ping, they won’t pay attention to the next one.
-6. Periodically review program status with your sponsor. Programs are trying to make progress on an organizational priority that doesn’t naturally align with the teams’ goals. Many teams struggle to break from their local prioritization to accomplish global priorities. This is where it’s essential to review your overall progress with your sponsor and point them towards the teams that prioritize program work. Effectively leveraging your sponsor to bridge misaligned prioritization will be essential to your success.
-
-In a lot of ways, a program is just an endless migration, and the techniques that apply to migrations work for programs as well.
-
-If you get all of those steps right, you’re running a genuinely great program. This might feel like a lot of work, and wow, it is: a lot of programs go wrong. The three leading causes of failed programs are:
-
-1. running it purely from a process perspective and becoming detached from the reality of what you’re trying to accomplish,
-2. running it purely from a technical perspective and thinking that you can skip the essential steps of advocating for your goal and listening to the folks you’re trying to motivate,
-3. trying to cover both perspectives as a single person–don’t go it alone!
-
-A bad program is a lot like an inefficient non-profit: the goal is right, but few funds reach the intended goal. No matter how you decide to measure technical quality, the most important thing to always remember when running your quality program is that the program isn’t the goal. The goal is to create technical quality. Organizational programs are massive and build so much momentum that inertia propels them forward long after they’ve stopped working. Keep your program lean enough to cancel, and remain self-critical enough to cancel if it ceases driving quality creation.
-
-
-
-在很多方面，一个程序就是一个无止境的迁移，适用于迁移的技术也适用于程序。
-
-如果你把所有这些步骤都做对了，你的项目真的很棒。这可能让人觉得工作量很大，哇，确实如此:很多程序都出了问题。程序失败的三个主要原因是:
-
-纯粹从过程的角度运行它，脱离你试图实现的现实，
-
-纯粹从技术角度运行它，认为你可以跳过支持你的目标和倾听你试图激励的人的基本步骤，
-
-作为一个单身的人，试着涵盖这两种观点——不要孤军奋战!
-
-一个糟糕的计划很像一个低效的非营利组织:目标是正确的，但很少有基金能达到预期的目标。无论您决定如何度量技术质量，在运行您的高质量程序时，始终要记住的最重要的事情是程序不是目标。目标是创造技术品质。组织项目是庞大的，并且建立了如此多的动力，以至于在它们停止工作很久之后，惯性会推动它们前进。保持你的程序足够精简，以取消它，并保持足够的自我批评，以取消如果它停止驱动质量创造。
+一个糟糕的计划很像一个低效的非营利组织:目标是正确的，但很少有基金能达到预期的目标。无论您决定如何度量技术质量，在运行您的质量计划时，始终要记住的最重要的事情是这些计划不是你最终追求的目标。目标是提升技术的品质。一整个组织的计划是庞大的，并且积攒了很多的惯性，以至于在它们停止工作很久之后，惯性还会推动它们前进。保持你的计划足够精简，取消起来不会太重，并保持足够的自我批评，以在产生反作用时能随时取消。
 
 ## Start small and add slowly
 
@@ -228,9 +198,9 @@ When you realize your actual technical quality has fallen considerably behind yo
 
 If you find yourself struggling with technical quality–and we all do, frequently–then start with something small, and iterate on it until it works. Then add another technique, and iterate on that too. Slowly build towards something that genuinely works, even if it means weathering accusations of not moving fast enough. When it comes to complex systems and interdependencies, moving quickly is just optics. It’s methodical movement that gets the job done.
 
-从小处开始，慢慢迭代
+## 从小处开始，慢慢迭代
 
-当你意识到你的实际技术质量远远落后于你的目标技术质量时，自然的第一反应是恐慌并开始推出大量的技术和解决方案。把所有的食材都倒进锅里，不可避免地，效果不好，更糟糕的是，你甚至不知道哪一部分该保存。
+当你意识到你的实际技术质量远远落后于你的目标技术质量时，自然的第一反应是恐慌并开始推出大量的技术和解决方案。把所有的食材都倒进锅里，效果肯定好不了；更糟糕的是，你甚至不知道哪一部分该予以保留。
 
-如果你发现自己在纠结于技术质量问题\(我们都经常遇到这种情况\)，那就从一些小的东西开始，反复迭代，直到它奏效。然后添加另一种技术，并对其进行迭代。慢慢地朝着真正有效的方向发展，即使这意味着要经受住对你行动不够快的指责。当涉及到复杂的系统和相互依赖时，快速移动只是光学。只有有条不紊的行动才能完成工作。
+如果你发现自己在纠结于技术质量问题\(我们都经常遇到这种情况\)，那就从一些小的东西开始，反复迭代，直到它奏效。然后添加另一种技术，并对其进行迭代。慢慢地朝着真正有效的方向发展，即使这意味着要经受住对你行动不够快的指责。当涉及到复杂的系统和相互依赖时，只有幻影才能快速移动。只有有条不紊的行动才能完成工作。
 
