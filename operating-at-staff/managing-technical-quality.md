@@ -192,12 +192,6 @@ _**数据模型**_是接口和状态的交集，将有状态系统的功能限�
 
 一个糟糕的计划很像一个低效的非营利组织:目标是正确的，但很少有基金能达到预期的目标。无论您决定如何度量技术质量，在运行您的质量计划时，始终要记住的最重要的事情是这些计划不是你最终追求的目标。目标是提升技术的品质。一整个组织的计划是庞大的，并且积攒了很多的惯性，以至于在它们停止工作很久之后，惯性还会推动它们前进。保持你的计划足够精简，取消起来不会太重，并保持足够的自我批评，以在产生反作用时能随时取消。
 
-## Start small and add slowly
-
-When you realize your actual technical quality has fallen considerably behind your target technical quality, the natural first reaction is to panic and start rolling out a vast array of techniques and solutions. Dumping all your ingredients into the pot, inevitably, doesn’t work well, and worse, you don’t even know which parts to keep.
-
-If you find yourself struggling with technical quality–and we all do, frequently–then start with something small, and iterate on it until it works. Then add another technique, and iterate on that too. Slowly build towards something that genuinely works, even if it means weathering accusations of not moving fast enough. When it comes to complex systems and interdependencies, moving quickly is just optics. It’s methodical movement that gets the job done.
-
 ## 从小处开始，慢慢迭代
 
 当你意识到你的实际技术质量远远落后于你的目标技术质量时，自然的第一反应是恐慌并开始推出大量的技术和解决方案。把所有的食材都倒进锅里，效果肯定好不了；更糟糕的是，你甚至不知道哪一部分该予以保留。
