@@ -1,42 +1,41 @@
-# Stay aligned with authority
+# 和权威（authority）保持一致
 
-In my role, we’ll often go weeks without being in the same room together, but I still have to operate as if I’m his direct proxy. So I go into a room and think, “What would Matthew do here? What is the question he would want to ask? What guidance has he given on this problem?” Because I can’t always run back to him for clarification, it’s essential to develop and maintain a deep understanding of his world view. That’s essential for me to retain the very deep trust required to be his representative and effectively carry out his strategy and vision. People need to be confident that I’ll always give the same answer that Matthew would give if he were there. -Rick Boone
+> 在我的工作中，我们（我和我的authority）经常几个星期都不在一个房间里，但我仍然必须像他的直接代理人一样行事。每当我走进一个房间，我会思考的问题是："马修在这里会做什么?他想问的问题是什么?在这个问题上他给了什么指导?" 因为我不能总是去找他澄清，所以发展和保持对他世界观的深刻理解是很重要的。对于我来说，保持作为他的代表并有效执行他的战略和愿景所需要的深厚信任至关重要。人们需要足够的信息，那就是如果马修在场的话，也会给他们和我给出的同样的答案。
+>
+> -Rick Boone
 
-It’s a common misconception that authority makes you powerful. Many folks aspiring towards more senior roles assume they’ll finally get to do things their way. They believe that the title inherently creates flexibility and autonomy. They believe that the friction holding them back will burst into a whirl of butterflies that scatter into the wind.
+一种常见的误解是：权威使你强大。许多渴望获得更高职位的人认为，获得权威能让他们按照自己的方式行事。他们认为头衔能够赋予他们灵活度和自主性。这些人相信，一但获得权威，原来那些阻碍他们前进的阻力会一下子化为风中蝴蝶，消失不见。
 
-The reality is a bit more nuanced.
+然而现实情况要微妙得多。
 
-Titles come with the sort of power called organizational authority, and that variety of authority is loaned to you by a greater organizational authority. What’s bestowed can also be retracted, and retaining organizational authority depends on remaining deeply aligned with the bestowing sponsor, generally your direct manager. To remain effective within a Staff-plus role, you have to learn the art of staying aligned with organizational authority.
+头衔会赋予你一种组织上的权威，只不过这种权威是由一个更大的组织权威借给你的。授予的东西也可以收回，而能否保持组织权威取决于与能否和授予权威的赞助者\(通常是你的直接经理\)保持深度一致。为了在一个高效能的Staff+的角色，你必须学习与组织权威保持一致的艺术。
 
-Beyond the safety net
+## 跳出安全网
 
-Retire your remaining expectations that the company is designed to set you up for success. Now you are one of the people responsible for setting the company, your team, and your manager up for success.
+不要幻想公司是用来让你成功的。从现在开始，你才是负责将公司、团队和你的manager推向成功的人之一。 
 
-Most mature technology companies succeed in creating a predictable promotion pipeline from folks joining early in their careers up through attaining the Senior engineer title. The process of getting a Staff title is generally more complex than preceding titles but usually navigated with the support of your engineering manager. Throughout this pipeline, you may become comfortable with your manager guiding your development and providing a safety net for your continued success. After reaching a Staff role, your safety net will cease to exist, or at best, the safety net will be short enough that you’re quite capable of jumping past it and into the awaiting chasm. This will be increasingly true as you go further into Senior Staff and Distinguished engineer roles.
+大多数成熟的科技公司都成功地建立了一个可预测的晋升渠道——从职业生涯的早期到Senior工程师头衔。而获得Staff头衔的过程通常比之前的头衔更复杂，但通常需要得到engineering manager的支持。在这一过程中，你可能会对过于依赖你的manager对你的发展提供的指导。这些指导如同安全网一样，然而当你进入Staff角色后，安全网将不复存在，或者至少，安全网小到你完全可以跳出去，进入到外面未知的深渊。随着你进一步进入Senior Staff和Distinguished工程师的职位，这一点会越来越明显。 
 
-Staff-plus roles are leadership roles, and in leadership roles, the support system that got you here will fade away. Often abruptly, you’re now expected to align the pieces around you for your own success.
+Staff+的角色是领导角色，在领导角色中，曾经那些给你支持帮助的系统将会消失。通常突然间，你只能依靠自己去协调周遭事物才能取得成功。
 
-Serving at the pleasure of the President
+## 为President服务
 
-When Rick Boone described his role as Strategic Advisor to the Vice-President of Infrastructure at Uber, he compared his role to Hand of the King in Game of Thrones, and Leo McGarry from The West Wing who frequently remarked, “I serve at the pleasure of the President.” In both those examples, authority flows from the tight association with greater authority, and it’s a great mental model for operating in a Staff-plus role. This can be a difficult transition from previous roles where your authority primarily accumulated through your personal actions and impact over time.
+当Rick Boone描述自己作为Uber基础设施VP的战略顾问时，他将自己的角色比作《权力的游戏》中的国王之手，以及《白宫西翼》中的[利奥·麦格瑞](https://westwing.fandom.com/wiki/Leo_McGarry)，后者经常说:“我为总统服务。”在这两个例子中，权威来自于与更大的权威的紧密联系，这是一个Staff+角色的良好思维模式。这可能需要一个困难的过渡，因为在以前的角色里，你的权威主要来自于你的个人行动和积累下来的影响力。
 
-If you and your manager have worked together for years, then you’ve already performed a subtle, subterranean sort of alignment over that time. In other cases, a new executive will join who is familiar with supporting these roles and will bring a deliberate map of how they want to work together. However, both of those circumstances are largely out of your control, so it’s valuable to develop your own approach to aligning upward with your manager.
+如果你和你的经理在一起工作多年，那么在这段时间里，你肯定已经进行过一些微妙的、隐秘的调整。另一种极端情况是，一个熟悉支持这些角色的新主管加入进来的时候，带着一张他们希望如何一起工作的详细地图。然而，这两种情况在很大程度上都超出了你的控制范围，所以开发自己与你的经理保持一致的方法是很有价值的。
 
-To align with your manager, some areas to focus on are:
+为了与你的经理保持一致，你需要关注以下方面:
 
-Never surprise your manager. Nothing destroys trust faster than surprising your manager. Steering a large organization often involves juggling several projects and problems in your head at once, and surprises threaten the juggler’s rhythm. Large or frequent surprises also call into question whether a leader is truly taking responsibility for their organization. In general, treat each time you surprise your manager as an incident to be learned from and endeavor to prevent repeats.
+* 永远不要让你的经理吃惊。没有什么比给经理"惊喜"更能破坏信任了。管理一个大型组织通常需要像一个杂耍人同时在头脑中处理好几个项目和问题，而惊讶会威胁到"杂耍人"的节奏。大的或频繁的意外也会让人质疑一个领导者是否真正在为他们的组织承担责任。一般来说，每次你让你的经理吃惊的时候，都要把它当作一个可以吸取教训的事件，努力防止再次发生。
+* 不要让你的sponsor给你意外"惊喜"。大多数人对他们的经理都有很高的期望值，期望他们总是记得传递与你当前工作相关的信息。一些经理很擅长（传递信息），而另一些则不是特别擅长。如果你的经理不擅长这一点，你当然应该给他们反馈，但你也应该采取积极的行动来促进信息的流动。这可能是[每周的电子邮件更新](https://lethain.com/weekly-updates/)，或者在你的团队的渠道中有一个Slack thread来分享你本周的关注事项。在1对1的时候一定要索要反馈！询问你的经理你是否还有其他需要关注的领域，以及你目前的优先事项与上司的优先事项是否一致。如果你们继续给对方带来惊讶，那么请找到你们以后[合作中的控制变量](https://lethain.com/identify-your-controls/)。
+* 提供context给你的manager。如果第一步是避免让你的经理对你自己的行为感到惊讶，那么下一步就是帮助你的经理避免被更广泛的组织惊讶到。如果遇到比如团队对新政策感到沮丧的情况，或者您的内部工具不能根据需求进行扩展的情况，请主动告知您的经理。要清楚，你不是要给他们解决问题，而是要传达你认为有用的信息。个人观点当然是有用的，但更重要的的是你能找到支撑你观点的数据。
+* 有时候你会听到有人贬低同事，说他们很擅长“向上管理”。当然也有一些破坏性的管理方法，比如有人控制信息来隐藏问题或歪曲情况，但其核心是，向上管理是为了增加带宽，减少你和你的经理之间的摩擦。刻意地与你的经理培养一种伙伴关系，总比当他们没有达到你的期望时自怨自艾好得多。
 
-Don’t let your sponsor surprise you. Most folks have extremely high expectations of their managers, assuming, for example, that they will always remember to relay information relevant to your current work. Managers try to do this, some of them are excellent at it, and others are not particularly good. If your manager isn’t great at this, you should certainly give them feedback, but you should also take proactive action to facilitate information flow. This might be weekly email updates or a Slack thread within your team’s channel sharing your focuses for the week. During 1:1s, dig for the feedback! Ask if there are other areas you should be focused on and how your current priorities align with your manager’s. If you continue to surprise each other, then identify the controls you’ll use to partner together.
+## 影响他人同时避免太多阻力
 
-Feed your manager’s context. If the first step is avoiding surprising your manager with your own actions, the next step is to help your manager not get surprised by the wider organization. If teams are frustrated by a new policy or your internal tools aren’t scaling with needs, proactively feed that to your manager. Be clear that you’re not bringing them a problem to solve, rather conveying information you believe will be useful. Opinions are helpful, but even more helpful is data when you can find it.
+作为一名领导者，你需要开发自己对"世界应该如何运转"的观点。如果没有这种观点，你就无法达到Staff +的水平。对事情应该如何运作有一个清晰的认识可以提高你的判断力，并使你能够主动采取行动。当你达到下一个领导者阶段，你越来越需要将你的愿景与更高级的组织领导者的愿景合并。
 
-Sometimes you’ll hear someone disparage a colleague, saying that they’re excellent at “managing up.” There are certainly destructive ways to manage up where someone controls information to hide problems or misrepresent circumstances, but at its core, managing up is about increasing bandwidth and reducing friction between you and your manager. Cultivating a deliberate partnership with your manager will go far further than practicing disappointment when they don’t meet your expectations.
+你解决这个问题的第一个方法可能是用另一个领导者的视角来取代你的视角，这个方法对一些人有效，但对很多人来说，这意味着你没有办法培养自己成为具有强大判断力的积极领导者。和第一种方法相反，我建议你敏锐地意识到你所持有的价值观和公司所遵循的价值观之间的区别，并找到一种方法来倡导这些价值观，同时避免被[赶出房间](https://lethain.com/getting-in-the-room/)。
 
-Influencing without too much friction
-
-Part of growing as a leader in developing your own perspective on how the world should work, and you can’t reach the Staff-plus level without that perspective. Having a clear sense of how things ought to work sharpens your judgment and enables you to act proactively. As you reach this next step of leadership, you increasingly have to merge your vision with those held by more senior organizational leaders.
-
-Your first approach to solving this problem might be replacing your vision with another leader’s vision, and that approach works for some, but for many, it means stepping away from the perspective that facilitated their success as a proactive leader with strong judgment. Instead, I recommend sharpening your awareness of the distinctions between the values that you hold and those that the organization operates under and find a way to advocate for them without getting kicked out of the room.
-
-People can only change so quickly, and organizations are made of people. If you’re deliberate in your approach, you’ll be able to influence your organization’s leaders immensely over time, but you’ll only get that time if you learn to remain in tight alignment at each step along the way.
+人是很难快速改变的，而组织是由人组成的。如果你的方法是深思熟虑的，你将能够随着时间的推移极大地影响你的组织的领导。但是只有当你学会在每一个步骤上（和领导者）保持紧密一致时，你才能获得这样\(扩展自己影响力\)的时间。
 

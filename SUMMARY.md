@@ -10,7 +10,7 @@
   * [在真正重要的事情上努力](operating-at-staff/work-on-what-matters.md)
   * [写工程策略](operating-at-staff/writing-engineering-strategy.md)
   * [技术质量管理](operating-at-staff/managing-technical-quality.md)
-  * [Stay aligned with authority](operating-at-staff/stay-aligned-with-authority.md)
+  * [和权威（authority）保持一致](operating-at-staff/stay-aligned-with-authority.md)
   * [To lead, you have to follow](operating-at-staff/to-lead-you-have-to-follow.md)
   * [Learn to never be wrong](operating-at-staff/learn-to-never-be-wrong.md)
   * [Create space for others](operating-at-staff/create-space-for-others.md)
